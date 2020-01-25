@@ -1,0 +1,57 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <RuntimeIdentifier>win7-x64</RuntimeIdentifier>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="lib\**" />
+    <Compile Remove="obj\**" />
+    <Compile Remove="xsd -hl7\**" />
+    <EmbeddedResource Remove="lib\**" />
+    <EmbeddedResource Remove="obj\**" />
+    <EmbeddedResource Remove="xsd -hl7\**" />
+    <None Remove="lib\**" />
+    <None Remove="obj\**" />
+    <None Remove="xsd -hl7\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="appsettings.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="bin\Debug\netcoreapp2.0\ccd.xml" />
+    <Content Include="bin\Debug\netcoreapp2.0\ccd2.xml" />
+    <Content Include="bin\Debug\netcoreapp2.0\ccd1.xml" />
+    <Content Include="bin\Debug\netcoreapp2.0\output.json" />
+    <Content Include="bin\Debug\netcoreapp2.1\ccd1.xml" />
+    <Content Include="bin\Debug\netcoreapp2.1\output.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="3.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="3.1.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Pather.CSharp" Version="2.1.0" />
+    <PackageReference Include="System.CodeDom" Version="4.7.0" />
+    <PackageReference Include="System.Security.Permissions" Version="4.7.0" />
+    <PackageReference Include="System.ServiceProcess.ServiceController" Version="4.7.0" />
+    <PackageReference Include="System.Xml.ReaderWriter" Version="4.3.1" />
+    <PackageReference Include="System.Xml.XmlDocument" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ArchieveFolder\" />
+    <Folder Include="UploadFolder\" />
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties /></VisualStudio></ProjectExtensions>
+
+</Project>

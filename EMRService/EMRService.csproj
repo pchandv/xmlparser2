@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A2B0DCE0-B2C5-4044-9A7A-21E5AF6222F9}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>EMRService</RootNamespace>
+    <AssemblyName>EMRService</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Diagnostics.EventLog, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Diagnostics.EventLog.4.7.0\lib\net461\System.Diagnostics.EventLog.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal.Windows, Version=4.1.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Principal.Windows.4.7.0\lib\net461\System.Security.Principal.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.ServiceProcess.ServiceController, Version=4.2.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ServiceProcess.ServiceController.4.7.0\lib\net461\System.ServiceProcess.ServiceController.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApiJsonSchemaModel\CCDDetails.cs" />
+    <Compile Include="AppConstants.cs" />
+    <Compile Include="ParserService\Model\CDA.cs" />
+    <Compile Include="ParserService\ParserXML.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\ConfigService.cs" />
+    <Compile Include="Service\RegisterService.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Service\WatcherService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ArchieveFolder\MCEpicSampleCCD.xml_Archieve_132209808507457237.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ArchieveFolder\MCEpicSampleCCD.xml_Archieve_132209867868899651.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ArchieveFolder\MCEpicSampleCCD.xml_Archieve_132209886497336583.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ArchieveFolder\MCEpicSampleCCD.xml_Archieve_132210060443038877.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ArchieveFolder\MCEpicSampleCCD.xml_Archieve_132212597439593388.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ArchieveFolder\PracticeFusionSample CCDA.xml_Archieve_132209806305138452.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ArchieveFolder\PracticeFusionSample CCDA.xml_Archieve_132211993305514945.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ArchieveFolder\PracticeFusionSample CCDA.xml_Archieve_132211995825738996.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ArchieveFolder\PracticeFusionSampleCCDA.xml_Archieve_132210720982138388.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ArchieveFolder\PracticeFusionSampleCCDA.xml_Archieve_132210736957698350.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ArchieveFolder\PracticeFusionSampleCCDA.xml_Archieve_132210743181625242.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ArchieveFolder\PracticeFusionSampleCCDA.xml_Archieve_132210746507901580.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ArchieveFolder\PracticeFusionSampleCCDA.xml_Archieve_132210749498185302.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ArchieveFolder\PracticeFusionSampleCCDA.xml_Archieve_132210753538314713.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ArchieveFolder\PracticeFusionSampleCCDA.xml_Archieve_132210755092076868.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ArchieveFolder\PracticeFusionSampleCCDA.xml_Archieve_132210757163046187.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ArchieveFolder\PracticeFusionSampleCCDA.xml_Archieve_132210760241199893.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ArchieveFolder\PracticeFusionSampleCCDA.xml_Archieve_132210761822023932.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ArchieveFolder\PracticeFusionSampleCCDA.xml_Archieve_132210774571451770.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ArchieveFolder\PracticeFusionSampleCCDA.xml_Archieve_132210776397397758.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ArchieveFolder\PracticeFusionSampleCCDA.xml_Archieve_132210778545736270.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ArchieveFolder\PracticeFusionSampleCCDA.xml_Archieve_132210780288663922.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ArchieveFolder\PracticeFusionSampleCCDA.xml_Archieve_132210782458846748.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ArchieveFolder\PracticeFusionSampleCCDA.xml_Archieve_132211120748044804.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ArchieveFolder\PracticeFusionSampleCCDA.xml_Archieve_132211121730647093.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ArchieveFolder\PracticeFusionSampleCCDA.xml_Archieve_132211122328897977.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ArchieveFolder\PracticeFusionSampleCCDA.xml_Archieve_132211136490001119.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ArchieveFolder\PracticeFusionSampleCCDA.xml_Archieve_132211139752642668.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ArchieveFolder\PracticeFusionSampleCCDA.xml_Archieve_132211146144468106.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ArchieveFolder\PracticeFusionSampleCCDA.xml_Archieve_132211147762645040.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ArchieveFolder\PracticeFusionSampleCCDA.xml_Archieve_132211153385445788.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ArchieveFolder\PracticeFusionSampleCCDA.xml_Archieve_132211154955832998.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ArchieveFolder\PracticeFusionSampleCCDA.xml_Archieve_132211157254449513.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ArchieveFolder\PracticeFusionSampleCCDA.xml_Archieve_132211162607077575.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ArchieveFolder\SampleCCDA from Banner.XML_Archieve_132209923773844256.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ArchieveFolder\SampleMCCCD2.xml_Archieve_132209887896659902.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ArchieveFolder\SampleMCCCD2.xml_Archieve_132209923269892485.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ArchieveFolder\SampleMCCCD2.xml_Archieve_132211534277571289.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ArchieveFolder\SampleMCCCD2.xml_Archieve_132211535571605896.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ArchieveFolder\SampleMCCCD2.xml_Archieve_132211551990616348.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ArchieveFolder\SampleMCCCD2.xml_Archieve_132211590393857330.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ArchieveFolder\SampleMCCCD2.xml_Archieve_132212390244781631.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ArchieveFolder\SampleMCCCD2.xml_Archieve_132212591551468005.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="UploadFolder\PracticeFusionSample CCDA.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

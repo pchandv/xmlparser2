@@ -1,0 +1,3212 @@
+<ClinicalDocument xmlns="urn:hl7-org:v3" xmlns:sdtc="urn:hl7-org:sdtc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<realmCode code="US"></realmCode>
+<typeId root="2.16.840.1.113883.1.3" extension="POCD_HD000040"></typeId>
+<templateId root="2.16.840.1.113883.10.20.22.1.1"></templateId>
+<templateId root="2.16.840.1.113883.10.20.22.1.2"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1" extension="432275"></id>
+<code code="34133-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Summarization of episode note"></code>
+<title>Clinical Summary</title>
+<effectiveTime xsi:type="IVL_TS" value="20160321133338"></effectiveTime>
+<confidentialityCode code="R" codeSystem="2.16.840.1.113883.5.25" codeSystemName="Confidentiality" displayName="Restricted"></confidentialityCode>
+<languageCode code="en-US"></languageCode>
+<recordTarget>
+<patientRole>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3" extension="B09057AC-3E6B-4ECC-9CA4-95D3A5FEDDFA"></id>
+<addr use="H"><streetAddressLine>540 Grove St</streetAddressLine><city>San Francisco</city><state>CA</state><postalCode>94123</postalCode><country>United States of America</country></addr>
+<telecom nullFlavor="NI"></telecom>
+<patient>
+<name use="L"><given>Charlie</given><delimiter>C</delimiter><family>Cook</family></name>
+<administrativeGenderCode code="M" codeSystem="2.16.840.1.113883.5.1" displayName="Male"></administrativeGenderCode>
+<birthTime xsi:type="IVL_TS" value="19450310"></birthTime>
+<raceCode nullFlavor="NI"></raceCode>
+<ethnicGroupCode nullFlavor="NI"></ethnicGroupCode>
+<languageCommunication>
+<languageCode nullFlavor="NI"></languageCode></languageCommunication></patient>
+<providerOrganization>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275"></id>
+<name>Pike Place Doctors</name>
+<telecom value="tel:(202)255-9941" use="WP"></telecom>
+<addr use="WP"><streetAddressLine>650 Townsend St.</streetAddressLine><city>Alameda</city><state>CA</state><postalCode>94501</postalCode><country>United States of America</country></addr></providerOrganization></patientRole></recordTarget>
+<author>
+<time xsi:type="IVL_TS" value="20160321133336"></time>
+<assignedAuthor>
+<id root="2.16.840.1.113883.4.6"></id>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.1.3" extension="1158744"></id>
+<code code="260000000X" codeSystem="2.16.840.1.113883.6.101" codeSystemName="Provider Codes" displayName="Ambulatory Health Care Facilities"></code>
+<addr use="WP"><streetAddressLine>Practice Fusion</streetAddressLine><streetAddressLine>650 Townsend St.</streetAddressLine><city>Alameda</city><state>CA</state><postalCode>94501</postalCode><country>United States of America</country></addr>
+<telecom value="tel:(202)255-9941" use="WP"></telecom>
+<assignedPerson>
+<name><given>Michael </given><family>Wilson</family><suffix>MD</suffix></name></assignedPerson>
+<representedOrganization>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275"></id>
+<name>Pike Place Doctors</name>
+<addr use="WP"><streetAddressLine>650 Townsend St.</streetAddressLine><city>Alameda</city><state>CA</state><postalCode>94501</postalCode><country>United States of America</country></addr></representedOrganization></assignedAuthor></author>
+<author>
+<time xsi:type="IVL_TS" value="20160321133336"></time>
+<assignedAuthor>
+<id root="2.16.840.1.113883.4.6"></id>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.1.3" extension="1183145"></id>
+<code code="260000000X" codeSystem="2.16.840.1.113883.6.101" codeSystemName="Provider Codes" displayName="Ambulatory Health Care Facilities"></code>
+<addr use="WP"><streetAddressLine>Practice Fusion</streetAddressLine><streetAddressLine>650 Townsend St.</streetAddressLine><city>Alameda</city><state>CA</state><postalCode>94501</postalCode><country>United States of America</country></addr>
+<telecom value="tel:(202)255-9941" use="WP"></telecom>
+<assignedPerson>
+<name><given>Marie</given><family>Omar</family><suffix>MD</suffix></name></assignedPerson>
+<representedOrganization>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275"></id>
+<name>Pike Place Doctors</name>
+<addr use="WP"><streetAddressLine>650 Townsend St.</streetAddressLine><city>Alameda</city><state>CA</state><postalCode>94501</postalCode><country>United States of America</country></addr></representedOrganization></assignedAuthor></author>
+<author>
+<time xsi:type="IVL_TS" value="20160321133336"></time>
+<assignedAuthor>
+<id root="2.16.840.1.113883.4.6"></id>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.1.3" extension="1191963"></id>
+<code code="260000000X" codeSystem="2.16.840.1.113883.6.101" codeSystemName="Provider Codes" displayName="Ambulatory Health Care Facilities"></code>
+<addr use="WP"><streetAddressLine>Practice Fusion</streetAddressLine><streetAddressLine>650 Townsend St.</streetAddressLine><city>Alameda</city><state>CA</state><postalCode>94501</postalCode><country>United States of America</country></addr>
+<telecom value="tel:(202)255-9941" use="WP"></telecom>
+<assignedPerson>
+<name><given>Tara</given><family>Voeltz</family><suffix>MD</suffix></name></assignedPerson>
+<representedOrganization>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275"></id>
+<name>Pike Place Doctors</name>
+<addr use="WP"><streetAddressLine>650 Townsend St.</streetAddressLine><city>Alameda</city><state>CA</state><postalCode>94501</postalCode><country>United States of America</country></addr></representedOrganization></assignedAuthor></author>
+<author>
+<time xsi:type="IVL_TS" value="20160321133336"></time>
+<assignedAuthor>
+<id root="2.16.840.1.113883.4.6"></id>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.1.3" extension="1193003"></id>
+<code code="260000000X" codeSystem="2.16.840.1.113883.6.101" codeSystemName="Provider Codes" displayName="Ambulatory Health Care Facilities"></code>
+<addr use="WP"><streetAddressLine>Practice Fusion</streetAddressLine><streetAddressLine>650 Townsend St.</streetAddressLine><city>Alameda</city><state>CA</state><postalCode>94501</postalCode><country>United States of America</country></addr>
+<telecom value="tel:(202)255-9941" use="WP"></telecom>
+<assignedPerson>
+<name><given>Practice</given><family>Fusion</family><suffix>MD</suffix></name></assignedPerson>
+<representedOrganization>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275"></id>
+<name>Pike Place Doctors</name>
+<addr use="WP"><streetAddressLine>650 Townsend St.</streetAddressLine><city>Alameda</city><state>CA</state><postalCode>94501</postalCode><country>United States of America</country></addr></representedOrganization></assignedAuthor></author>
+<author>
+<time xsi:type="IVL_TS" value="20160321133336"></time>
+<assignedAuthor>
+<id root="2.16.840.1.113883.4.6"></id>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.1.3" extension="1194275"></id>
+<code code="260000000X" codeSystem="2.16.840.1.113883.6.101" codeSystemName="Provider Codes" displayName="Ambulatory Health Care Facilities"></code>
+<addr use="WP"><streetAddressLine>Practice Fusion</streetAddressLine><streetAddressLine>650 Townsend St.</streetAddressLine><city>Alameda</city><state>CA</state><postalCode>94501</postalCode><country>United States of America</country></addr>
+<telecom value="tel:(202)255-9941" use="WP"></telecom>
+<assignedPerson>
+<name><given>Gordon</given><family>Lichter</family><suffix>MD</suffix></name></assignedPerson>
+<representedOrganization>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275"></id>
+<name>Pike Place Doctors</name>
+<addr use="WP"><streetAddressLine>650 Townsend St.</streetAddressLine><city>Alameda</city><state>CA</state><postalCode>94501</postalCode><country>United States of America</country></addr></representedOrganization></assignedAuthor></author>
+<author>
+<time xsi:type="IVL_TS" value="20160321133336"></time>
+<assignedAuthor>
+<id root="2.16.840.1.113883.4.6"></id>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.1.3" extension="1194897"></id>
+<code code="207R00000X" codeSystem="2.16.840.1.113883.6.101" codeSystemName="Provider Codes" displayName="Cardiology (Interventional)"></code>
+<addr use="WP"><streetAddressLine>Practice Fusion</streetAddressLine><streetAddressLine>650 Townsend St.</streetAddressLine><city>Alameda</city><state>CA</state><postalCode>94501</postalCode><country>United States of America</country></addr>
+<telecom value="tel:(202)255-9941" use="WP"></telecom>
+<assignedPerson>
+<name><given>Allison</given><family>Tinney</family><prefix>Dr</prefix><suffix>MD</suffix></name></assignedPerson>
+<representedOrganization>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275"></id>
+<name>Pike Place Doctors</name>
+<addr use="WP"><streetAddressLine>650 Townsend St.</streetAddressLine><city>Alameda</city><state>CA</state><postalCode>94501</postalCode><country>United States of America</country></addr></representedOrganization></assignedAuthor></author>
+<author>
+<time xsi:type="IVL_TS" value="20160321133336"></time>
+<assignedAuthor>
+<id root="2.16.840.1.113883.4.6"></id>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.1.3" extension="992908"></id>
+<code code="207R00000X" codeSystem="2.16.840.1.113883.6.101" codeSystemName="Provider Codes" displayName="Internal Medicine"></code>
+<addr use="WP"><streetAddressLine>Practice Fusion</streetAddressLine><streetAddressLine>650 Townsend St.</streetAddressLine><city>Alameda</city><state>CA</state><postalCode>94501</postalCode><country>United States of America</country></addr>
+<telecom value="tel:(202)255-9941" use="WP"></telecom>
+<assignedPerson>
+<name><given>Andrew</given><family>Paull</family><prefix>Dr</prefix><suffix>MD</suffix></name></assignedPerson>
+<representedOrganization>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275"></id>
+<name>Pike Place Doctors</name>
+<addr use="WP"><streetAddressLine>650 Townsend St.</streetAddressLine><city>Alameda</city><state>CA</state><postalCode>94501</postalCode><country>United States of America</country></addr></representedOrganization></assignedAuthor></author>
+<author>
+<time xsi:type="IVL_TS" value="20160321133336"></time>
+<assignedAuthor>
+<id root="2.16.840.1.113883.4.6"></id>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.1.3" extension="991415"></id>
+<code code="208D00000X" codeSystem="2.16.840.1.113883.6.101" codeSystemName="Provider Codes" displayName="General Practice"></code>
+<addr use="WP"><streetAddressLine>Practice Fusion</streetAddressLine><streetAddressLine>650 Townsend St.</streetAddressLine><city>Alameda</city><state>CA</state><postalCode>94501</postalCode><country>United States of America</country></addr>
+<telecom value="tel:(202)255-9941" use="WP"></telecom>
+<assignedPerson>
+<name><given>Mike</given><family>Tse</family><prefix>Dr</prefix><suffix>MD</suffix></name></assignedPerson>
+<representedOrganization>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275"></id>
+<name>Pike Place Doctors</name>
+<addr use="WP"><streetAddressLine>650 Townsend St.</streetAddressLine><city>Alameda</city><state>CA</state><postalCode>94501</postalCode><country>United States of America</country></addr></representedOrganization></assignedAuthor></author>
+<author>
+<time xsi:type="IVL_TS" value="20160321133336"></time>
+<assignedAuthor>
+<id root="2.16.840.1.113883.4.6"></id>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.1.3" extension="990742"></id>
+<code code="207R00000X" codeSystem="2.16.840.1.113883.6.101" codeSystemName="Provider Codes" displayName="Cardiology (Disease)"></code>
+<addr use="WP"><streetAddressLine>Practice Fusion</streetAddressLine><streetAddressLine>650 Townsend St.</streetAddressLine><city>Alameda</city><state>CA</state><postalCode>94501</postalCode><country>United States of America</country></addr>
+<telecom value="tel:(202)255-9941" use="WP"></telecom>
+<assignedPerson>
+<name><given>Alan</given><family>Weber</family><prefix>Dr</prefix><suffix>MD</suffix></name></assignedPerson>
+<representedOrganization>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275"></id>
+<name>Pike Place Doctors</name>
+<addr use="WP"><streetAddressLine>650 Townsend St.</streetAddressLine><city>Alameda</city><state>CA</state><postalCode>94501</postalCode><country>United States of America</country></addr></representedOrganization></assignedAuthor></author>
+<author>
+<time xsi:type="IVL_TS" value="20160321133336"></time>
+<assignedAuthor>
+<id root="2.16.840.1.113883.4.6"></id>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.1.3" extension="886934"></id>
+<code code="207Q00000X" codeSystem="2.16.840.1.113883.6.101" codeSystemName="Provider Codes" displayName="Family Medicine"></code>
+<addr use="WP"><streetAddressLine>Practice Fusion</streetAddressLine><streetAddressLine>650 Townsend St.</streetAddressLine><city>Alameda</city><state>CA</state><postalCode>94501</postalCode><country>United States of America</country></addr>
+<telecom value="tel:(202)255-9941" use="WP"></telecom>
+<assignedPerson>
+<name><given>Paige</given><family>Hurwitz</family><prefix>Dr</prefix></name></assignedPerson>
+<representedOrganization>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275"></id>
+<name>Pike Place Doctors</name>
+<addr use="WP"><streetAddressLine>650 Townsend St.</streetAddressLine><city>Alameda</city><state>CA</state><postalCode>94501</postalCode><country>United States of America</country></addr></representedOrganization></assignedAuthor></author>
+<author>
+<time xsi:type="IVL_TS" value="20160321133336"></time>
+<assignedAuthor>
+<id root="2.16.840.1.113883.4.6"></id>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.1.3" extension="992907"></id>
+<code code="207Q00000X" codeSystem="2.16.840.1.113883.6.101" codeSystemName="Provider Codes" displayName="Family Medicine"></code>
+<addr use="WP"><streetAddressLine>Practice Fusion</streetAddressLine><streetAddressLine>650 Townsend St.</streetAddressLine><city>Alameda</city><state>CA</state><postalCode>94501</postalCode><country>United States of America</country></addr>
+<telecom value="tel:(202)255-9941" use="WP"></telecom>
+<assignedPerson>
+<name><given>Jillian</given><family>Jones</family><prefix>Dr</prefix><suffix>MD</suffix></name></assignedPerson>
+<representedOrganization>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275"></id>
+<name>Pike Place Doctors</name>
+<addr use="WP"><streetAddressLine>650 Townsend St.</streetAddressLine><city>Alameda</city><state>CA</state><postalCode>94501</postalCode><country>United States of America</country></addr></representedOrganization></assignedAuthor></author>
+<author>
+<time xsi:type="IVL_TS" value="20160321133336"></time>
+<assignedAuthor>
+<id root="2.16.840.1.113883.4.6"></id>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.1.3" extension="992125"></id>
+<code code="207K00000X" codeSystem="2.16.840.1.113883.6.101" codeSystemName="Provider Codes" displayName="Allergy and Immunology"></code>
+<addr use="WP"><streetAddressLine>Practice Fusion</streetAddressLine><streetAddressLine>650 Townsend St.</streetAddressLine><city>Alameda</city><state>CA</state><postalCode>94501</postalCode><country>United States of America</country></addr>
+<telecom value="tel:(202)255-9941" use="WP"></telecom>
+<assignedPerson>
+<name><given>Vinit</given><family>Jain</family><suffix>MD</suffix></name></assignedPerson>
+<representedOrganization>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275"></id>
+<name>Pike Place Doctors</name>
+<addr use="WP"><streetAddressLine>650 Townsend St.</streetAddressLine><city>Alameda</city><state>CA</state><postalCode>94501</postalCode><country>United States of America</country></addr></representedOrganization></assignedAuthor></author>
+<dataEnterer>
+<assignedEntity>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.1.3" extension="1191963"></id>
+<addr use="WP"><streetAddressLine>650 Townsend St.</streetAddressLine><city>Alameda</city><state>CA</state><postalCode>94501</postalCode><country>United States of America</country></addr>
+<telecom value="tel:(202)255-9941" use="WP"></telecom>
+<assignedPerson>
+<name><given>Tara</given><family>Voeltz</family><suffix>MD</suffix></name></assignedPerson></assignedEntity></dataEnterer>
+<custodian>
+<assignedCustodian>
+<representedCustodianOrganization>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275" extension="POCD_HD000040"></id>
+<name>Pike Place Doctors</name>
+<telecom value="tel:(202)255-9941" use="WP"></telecom>
+<addr use="WP"><streetAddressLine>650 Townsend St.</streetAddressLine><city>Alameda</city><state>CA</state><postalCode>94501</postalCode><country>United States of America</country></addr></representedCustodianOrganization></assignedCustodian></custodian>
+<legalAuthenticator>
+<time xsi:type="IVL_TS" value="20160321133337"></time>
+<signatureCode code="S"></signatureCode>
+<assignedEntity>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.4.1.3" extension="1191963"></id>
+<addr use="WP"><streetAddressLine>650 Townsend St.</streetAddressLine><city>Alameda</city><state>CA</state><postalCode>94501</postalCode><country>United States of America</country></addr>
+<telecom value="tel:(202)255-9941" use="WP"></telecom>
+<assignedPerson>
+<name><given>Tara</given><family>Voeltz</family><suffix>MD</suffix></name></assignedPerson></assignedEntity></legalAuthenticator>
+<documentationOf>
+<serviceEvent classCode="PCPR" moodCode="EVN">
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.1.1" extension="1191963"></id>
+<effectiveTime>
+<low value="20120216000000"></low>
+<high value="20160307000000"></high></effectiveTime>
+<performer typeCode="PRF">
+<templateId root="2.16.840.1.113883.10.20.6.2.1"></templateId>
+<functionCode code="CP" codeSystemName="Provider Role" displayName="Consulting Provider"></functionCode>
+<assignedEntity>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.1.1"></id>
+<code code="260000000X" codeSystem="2.16.840.1.113883.6.101" codeSystemName="Provider Codes" displayName="Ambulatory Health Care Facilities"></code>
+<addr use="WP"><streetAddressLine>650 Townsend St.</streetAddressLine><city>Alameda</city><state>CA</state><postalCode>94501</postalCode><country>United States of America</country></addr>
+<telecom value="tel:(202)255-9941" use="WP"></telecom>
+<assignedPerson>
+<name><given>Tara</given><family>Voeltz</family><suffix>MD</suffix></name></assignedPerson>
+<representedOrganization>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275"></id>
+<name>Pike Place Doctors</name>
+<addr use="WP"><streetAddressLine>650 Townsend St.</streetAddressLine><city>Alameda</city><state>CA</state><postalCode>94501</postalCode><country>United States of America</country></addr></representedOrganization></assignedEntity></performer></serviceEvent></documentationOf>
+<componentOf>
+<encompassingEncounter>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.4.1.4" extension="113740978"></id>
+<effectiveTime>
+<low value="20120216000000"></low>
+<high value="20160307000000"></high></effectiveTime></encompassingEncounter></componentOf>
+<component>
+<structuredBody>
+<component>
+<section>
+<templateId root="2.16.840.1.113883.10.20.22.2.6.1"></templateId>
+<code code="48765-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Allergies, Adverse Reactions, Alerts"></code>
+<title>Allergies</title>
+<text><table width="95%" border="1">
+<thead>
+<tr>
+<th>Allergy</th>
+<th>Date</th>
+<th>Reaction Status</th>
+<th>Severity Status</th></tr></thead>
+<tbody>
+<tr ID="allergy8079910">
+<td>Iodine Compounds</td>
+<td>Onset: Not Indicated</td>
+<td>Facial swelling</td>
+<td>Moderate</td></tr>
+<tr ID="allergy8108886">
+<td>Aspirin</td>
+<td>Onset: 2015-04-08</td>
+<td>Not Indicated</td>
+<td>Mild</td></tr></tbody></table></text>
+<entry typeCode="DRIV">
+<act classCode="ACT" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.30"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3" extension="113740978"></id>
+<code xsi:type="CE" code="48765-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Allergies, adverse reactions, alerts"></code>
+<statusCode code="completed"></statusCode>
+<effectiveTime>
+<low value="20150405224919"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<entryRelationship typeCode="SUBJ" inversionInd="true">
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.7"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3" extension="113740978"></id>
+<code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4"></code>
+<statusCode code="completed"></statusCode>
+<effectiveTime nullFlavor="NI"></effectiveTime>
+<value xsi:type="CE" code="416098002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="drug allergy"></value>
+<performer typeCode="PRF">
+<assignedEntity>
+<id root="2.16.840.1.113883.3.3388.1.1.432275.4.1.3" extension="1902894298"></id>
+<addr use="WP"><streetAddressLine>650 Townsend St.</streetAddressLine><city>Alameda</city><state>CA</state><postalCode>94501</postalCode><country>United States of America</country></addr>
+<telecom value="tel:(202)255-9941" use="WP"></telecom>
+<assignedPerson>
+<name><prefix>Dr</prefix><given>Paige</given><family>Hurwitz</family></name></assignedPerson></assignedEntity></performer>
+<participant typeCode="CSM">
+<participantRole classCode="MANU">
+<playingEntity classCode="MMAT">
+<code nullFlavor="UNK"></code></playingEntity></participantRole></participant>
+<entryRelationship typeCode="SUBJ" inversionInd="true">
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.28"></templateId>
+<code code="33999-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"></code>
+<statusCode code="completed"></statusCode>
+<value xsi:type="CE" code="55561003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Active"></value></observation></entryRelationship>
+<entryRelationship typeCode="SUBJ" inversionInd="true">
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.9"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3" extension="113740978"></id>
+<code xsi:type="CE" code="ASSERTION" codeSystem="2.16.840.1.113883.5.4"></code>
+<text><reference value="#allergy8079910"></reference></text>
+<statusCode code="completed"></statusCode>
+<value xsi:type="CD" code="278528006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Facial swelling"></value></observation></entryRelationship>
+<entryRelationship typeCode="MFST" inversionInd="true">
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.8"></templateId>
+<code xsi:type="CE" code="SEV" codeSystem="2.16.840.1.113883.5.4" codeSystemName="ActCode"></code>
+<text><reference value="#allergy8079910"></reference></text>
+<statusCode code="completed"></statusCode>
+<value xsi:type="CD" code="6736007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Moderate"></value></observation></entryRelationship></observation></entryRelationship></act></entry>
+<entry typeCode="DRIV">
+<act classCode="ACT" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.30"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3" extension="113740978"></id>
+<code xsi:type="CE" code="48765-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Allergies, adverse reactions, alerts"></code>
+<statusCode code="completed"></statusCode>
+<effectiveTime>
+<low value="20150408200424"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<entryRelationship typeCode="SUBJ" inversionInd="true">
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.7"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3" extension="113740978"></id>
+<code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4"></code>
+<statusCode code="completed"></statusCode>
+<effectiveTime value="20150408070000"></effectiveTime>
+<value xsi:type="CE" code="416098002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="drug allergy"></value>
+<performer typeCode="PRF">
+<assignedEntity>
+<id root="2.16.840.1.113883.3.3388.1.1.432275.4.1.3" extension="1467540500"></id>
+<addr use="WP"><streetAddressLine>650 Townsend St.</streetAddressLine><city>Alameda</city><state>CA</state><postalCode>94501</postalCode><country>United States of America</country></addr>
+<telecom value="tel:(202)255-9941" use="WP"></telecom>
+<assignedPerson>
+<name><prefix>Dr</prefix><given>Alan</given><family>Weber</family><suffix>MD</suffix></name></assignedPerson></assignedEntity></performer>
+<participant typeCode="CSM">
+<participantRole classCode="MANU">
+<playingEntity classCode="MMAT">
+<code code="318272" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm" displayName="Aspirin"></code></playingEntity></participantRole></participant>
+<entryRelationship typeCode="SUBJ" inversionInd="true">
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.28"></templateId>
+<code code="33999-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"></code>
+<statusCode code="completed"></statusCode>
+<value xsi:type="CE" code="55561003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Active"></value></observation></entryRelationship>
+<entryRelationship typeCode="SUBJ" inversionInd="true">
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.9"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3" extension="113740978"></id>
+<code xsi:type="CE" code="ASSERTION" codeSystem="2.16.840.1.113883.5.4"></code>
+<text><reference value="#allergy8108886"></reference></text>
+<statusCode code="completed"></statusCode>
+<value xsi:type="CD" nullFlavor="UNK"></value></observation></entryRelationship>
+<entryRelationship typeCode="MFST" inversionInd="true">
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.8"></templateId>
+<code xsi:type="CE" code="SEV" codeSystem="2.16.840.1.113883.5.4" codeSystemName="ActCode"></code>
+<text><reference value="#allergy8108886"></reference></text>
+<statusCode code="completed"></statusCode>
+<value xsi:type="CD" code="255604002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Mild"></value></observation></entryRelationship></observation></entryRelationship></act></entry></section></component>
+<component>
+<section>
+<templateId root="2.16.840.1.113883.10.20.22.2.9"></templateId>
+<code code="51847-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Assessment and Plan"></code>
+<title>Assessment and Plan</title>
+<text><table>
+<thead>
+<tr>
+<th>Assessment and Plan</th></tr></thead>
+<tbody>
+<tr ID="APPOC185149304">
+<td>No Plans indicated</td></tr>
+<tr ID="APPOC185149312">
+<td>No Plans indicated</td></tr>
+<tr ID="APPOC186836107">
+<td>No Plans indicated</td></tr>
+<tr ID="APPOC194238137">
+<td>No Plans indicated</td></tr>
+<tr ID="APPOC250410864">
+<td>No Plans indicated</td></tr>
+<tr ID="APLAB2098698">
+<td> Tests Pending: Complete blood count (hemogram) panel - Blood by Automated count. Expected results on: 2015-04-13</td></tr>
+<tr ID="APLAB2099605">
+<td> Tests Pending: HIV 1 RNA [#/volume] (viral load) in Serum or Plasma by Probe and target amplification method. Expected results on: 2015-04-13</td></tr>
+<tr ID="APLAB2099606">
+<td> Tests Pending: CD4 T-cell absolute panel - Blood. Expected results on: 2015-04-13</td></tr>
+<tr ID="APLAB2099607">
+<td> Tests Pending: CBC W Auto Differential panel - Blood. Expected results on: 2015-04-13</td></tr>
+<tr ID="APLAB2099608">
+<td> Tests Pending: Ped Lipid Panel, Non-Fasting. Expected results on: 2015-04-13</td></tr>
+<tr ID="APLAB2108496">
+<td> Tests Pending: Complete blood count (hemogram) panel - Blood by Automated count. Expected results on: 2015-04-14</td></tr>
+<tr ID="APLAB2108520">
+<td> Tests Pending: Comprehensive metabolic 2000 panel - Serum or Plasma. Expected results on: 2015-04-14</td></tr>
+<tr ID="APLAB8407056">
+<td> Tests Pending: CBC w/ Diff. Expected results on: 2016-03-01</td></tr>
+<tr ID="APLAB8407057">
+<td> Tests Pending: Comprehensive Metabolic Profile. Expected results on: 2016-03-01</td></tr>
+<tr ID="APLAB8407058">
+<td> Tests Pending: Lipid Profile. Expected results on: 2016-03-01</td></tr>
+<tr ID="APLAB8473450">
+<td> Tests Pending: CBC w/ Diff. Expected results on: 2016-03-02</td></tr>
+<tr ID="APLAB8473451">
+<td> Tests Pending: Comprehensive Metabolic Profile. Expected results on: 2016-03-02</td></tr>
+<tr ID="APLAB8473452">
+<td> Tests Pending: Lipid Profile. Expected results on: 2016-03-02</td></tr></tbody></table></text>
+<entry>
+<act classCode="ACT" moodCode="INT">
+<templateId root="2.16.840.1.113883.10.20.22.4.39"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.1.3.4.1" extension="185149304"></id>
+<code xsi:type="CE" code="278448002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Care plan"></code>
+<text><reference value="#APPOC185149304"></reference></text>
+<statusCode code="new"></statusCode>
+<effectiveTime value="20120216000000"></effectiveTime></act></entry>
+<entry>
+<act classCode="ACT" moodCode="INT">
+<templateId root="2.16.840.1.113883.10.20.22.4.39"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.1.3.4.1" extension="185149312"></id>
+<code xsi:type="CE" code="278448002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Care plan"></code>
+<text><reference value="#APPOC185149312"></reference></text>
+<statusCode code="new"></statusCode>
+<effectiveTime value="20120405000000"></effectiveTime></act></entry>
+<entry>
+<act classCode="ACT" moodCode="INT">
+<templateId root="2.16.840.1.113883.10.20.22.4.39"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.1.3.4.1" extension="186836107"></id>
+<code xsi:type="CE" code="278448002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Care plan"></code>
+<text><reference value="#APPOC186836107"></reference></text>
+<statusCode code="new"></statusCode>
+<effectiveTime value="20150414000000"></effectiveTime></act></entry>
+<entry>
+<act classCode="ACT" moodCode="INT">
+<templateId root="2.16.840.1.113883.10.20.22.4.39"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.1.3.4.1" extension="194238137"></id>
+<code xsi:type="CE" code="278448002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Care plan"></code>
+<text><reference value="#APPOC194238137"></reference></text>
+<statusCode code="new"></statusCode>
+<effectiveTime value="20150521000000"></effectiveTime></act></entry>
+<entry>
+<act classCode="ACT" moodCode="INT">
+<templateId root="2.16.840.1.113883.10.20.22.4.39"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.1.3.4.1" extension="250410864"></id>
+<code xsi:type="CE" code="278448002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Care plan"></code>
+<text><reference value="#APPOC250410864"></reference></text>
+<statusCode code="new"></statusCode>
+<effectiveTime value="20160307000000"></effectiveTime></act></entry>
+<entry>
+<act classCode="ACT" moodCode="ARQ">
+<templateId root="2.16.840.1.113883.10.20.22.4.39"></templateId>
+<id root="BCBBF012-5A90-4F28-9C23-5449D7BA3C73"></id>
+<code code="58410-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Complete blood count (hemogram) panel - Blood by Automated count"></code>
+<text><reference value="#APLAB2098698"></reference></text>
+<statusCode code="new"></statusCode>
+<effectiveTime value="20150413201924"></effectiveTime></act></entry>
+<entry>
+<act classCode="ACT" moodCode="ARQ">
+<templateId root="2.16.840.1.113883.10.20.22.4.39"></templateId>
+<id root="A1D913E9-4200-4FA7-8675-7FA15E3C5526"></id>
+<code code="20447-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="HIV 1 RNA [#/volume] (viral load) in Serum or Plasma by Probe and target amplification method"></code>
+<text><reference value="#APLAB2099605"></reference></text>
+<statusCode code="new"></statusCode>
+<effectiveTime value="20150413204855"></effectiveTime></act></entry>
+<entry>
+<act classCode="ACT" moodCode="ARQ">
+<templateId root="2.16.840.1.113883.10.20.22.4.39"></templateId>
+<id root="C66D5856-18E1-469C-B34F-5B20C5A8D1AC"></id>
+<code code="65758-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="CD4 T-cell absolute panel - Blood"></code>
+<text><reference value="#APLAB2099606"></reference></text>
+<statusCode code="new"></statusCode>
+<effectiveTime value="20150413204855"></effectiveTime></act></entry>
+<entry>
+<act classCode="ACT" moodCode="ARQ">
+<templateId root="2.16.840.1.113883.10.20.22.4.39"></templateId>
+<id root="CAECCED1-E8FD-418E-A9D8-545CDA6F38AE"></id>
+<code code="57021-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="CBC W Auto Differential panel - Blood"></code>
+<text><reference value="#APLAB2099607"></reference></text>
+<statusCode code="new"></statusCode>
+<effectiveTime value="20150413204855"></effectiveTime></act></entry>
+<entry>
+<act classCode="ACT" moodCode="ARQ">
+<templateId root="2.16.840.1.113883.10.20.22.4.39"></templateId>
+<id root="DD25F22A-B58F-4B1D-BE35-92A891E1131E"></id>
+<code code="2076" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Ped Lipid Panel, Non-Fasting"></code>
+<text><reference value="#APLAB2099608"></reference></text>
+<statusCode code="new"></statusCode>
+<effectiveTime value="20150413204855"></effectiveTime></act></entry>
+<entry>
+<act classCode="ACT" moodCode="ARQ">
+<templateId root="2.16.840.1.113883.10.20.22.4.39"></templateId>
+<id root="5E28B3CF-4F8C-4CAB-A3FD-60CE53DCAC81"></id>
+<code code="58410-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Complete blood count (hemogram) panel - Blood by Automated count"></code>
+<text><reference value="#APLAB2108496"></reference></text>
+<statusCode code="new"></statusCode>
+<effectiveTime value="20150414154510"></effectiveTime></act></entry>
+<entry>
+<act classCode="ACT" moodCode="ARQ">
+<templateId root="2.16.840.1.113883.10.20.22.4.39"></templateId>
+<id root="C800221A-04F1-47B5-BEBA-A54E0ADA6716"></id>
+<code code="24323-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Comprehensive metabolic 2000 panel - Serum or Plasma"></code>
+<text><reference value="#APLAB2108520"></reference></text>
+<statusCode code="new"></statusCode>
+<effectiveTime value="20150414154510"></effectiveTime></act></entry>
+<entry>
+<act classCode="ACT" moodCode="ARQ">
+<templateId root="2.16.840.1.113883.10.20.22.4.39"></templateId>
+<id root="F2016BDB-DD31-41D5-BFDF-BF6D49D74DB7"></id>
+<code code="DLS518" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="CBC w/ Diff"></code>
+<text><reference value="#APLAB8407056"></reference></text>
+<statusCode code="new"></statusCode>
+<effectiveTime value="20160301182842"></effectiveTime></act></entry>
+<entry>
+<act classCode="ACT" moodCode="ARQ">
+<templateId root="2.16.840.1.113883.10.20.22.4.39"></templateId>
+<id root="FEE4DCB3-B403-4152-A012-357AD9BBB50D"></id>
+<code code="DLS1600" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Comprehensive Metabolic Profile"></code>
+<text><reference value="#APLAB8407057"></reference></text>
+<statusCode code="new"></statusCode>
+<effectiveTime value="20160301182842"></effectiveTime></act></entry>
+<entry>
+<act classCode="ACT" moodCode="ARQ">
+<templateId root="2.16.840.1.113883.10.20.22.4.39"></templateId>
+<id root="62F5DAA9-68F7-4711-A490-7249C502455D"></id>
+<code code="DLS915" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Lipid Profile"></code>
+<text><reference value="#APLAB8407058"></reference></text>
+<statusCode code="new"></statusCode>
+<effectiveTime value="20160301182842"></effectiveTime></act></entry>
+<entry>
+<act classCode="ACT" moodCode="ARQ">
+<templateId root="2.16.840.1.113883.10.20.22.4.39"></templateId>
+<id root="4670FCA1-5774-4D75-B38F-18FA41148EEA"></id>
+<code code="DLS518" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="CBC w/ Diff"></code>
+<text><reference value="#APLAB8473450"></reference></text>
+<statusCode code="new"></statusCode>
+<effectiveTime value="20160302232155"></effectiveTime></act></entry>
+<entry>
+<act classCode="ACT" moodCode="ARQ">
+<templateId root="2.16.840.1.113883.10.20.22.4.39"></templateId>
+<id root="F778456A-2E43-44AA-98D2-3B1C54600B0E"></id>
+<code code="DLS1600" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Comprehensive Metabolic Profile"></code>
+<text><reference value="#APLAB8473451"></reference></text>
+<statusCode code="new"></statusCode>
+<effectiveTime value="20160302232155"></effectiveTime></act></entry>
+<entry>
+<act classCode="ACT" moodCode="ARQ">
+<templateId root="2.16.840.1.113883.10.20.22.4.39"></templateId>
+<id root="D1485A6E-EDE2-4D33-B067-9AE93B100E82"></id>
+<code code="DLS915" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Lipid Profile"></code>
+<text><reference value="#APLAB8473452"></reference></text>
+<statusCode code="new"></statusCode>
+<effectiveTime value="20160302232155"></effectiveTime></act></entry></section></component>
+<component>
+<section>
+<templateId root="2.16.840.1.113883.10.20.22.2.13"></templateId>
+<code code="46239-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Chief Complaint and Reason For Visit"></code>
+<title>Chief Complaint and Reason For Visit</title>
+<text><table>
+<thead>
+<tr>
+<th>Chief Complaint or Reason for Visit</th></tr></thead>
+<tbody>
+<tr ID="ChiefComplaint_1">
+<td>2012-02-16 : health check-up  </td></tr></tbody>
+<tbody>
+<tr ID="ChiefComplaint_2">
+<td>2012-04-05 : sore throat  </td></tr></tbody>
+<tbody>
+<tr ID="ChiefComplaint_3">
+<td>2015-04-14 : No Chief Complaint or Reason for Visit given  </td></tr></tbody>
+<tbody>
+<tr ID="ChiefComplaint_4">
+<td>2015-05-21 : No Chief Complaint or Reason for Visit given  </td></tr></tbody>
+<tbody>
+<tr ID="ChiefComplaint_5">
+<td>2016-03-07 : No Chief Complaint or Reason for Visit given  </td></tr></tbody></table></text></section></component>
+<component>
+<section>
+<templateId root="2.16.840.1.113883.10.20.22.2.22.1"></templateId>
+<code code="46240-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="History of Encounters"></code>
+<title>Encounters</title>
+<text><table width="95%" border="1">
+<thead>
+<tr>
+<th>Encounter Type </th>
+<th>Location Name</th>
+<th>Performer</th>
+<th>Date of Service</th></tr></thead>
+<tbody>
+<tr ID="Encounter185149304164912547">
+<td>Encounter: Encounter for "check-up" (procedure)</td>
+<td>Practice Fusion, 650 Townsend St., Alameda, CA  94501 Phone: 2022559941</td>
+<td>Dr Paige  Hurwitz </td>
+<td>2012-02-16</td></tr>
+<tr ID="Encounter185149312164912686">
+<td>Encounter: Encounter for "check-up" (procedure)</td>
+<td>Practice Fusion, 650 Townsend St., Alameda, CA  94501 Phone: 2022559941</td>
+<td>Dr Paige  Hurwitz </td>
+<td>2012-04-05</td></tr>
+<tr ID="Encounter186836107170719263">
+<td>Encounter: Encounter for "check-up" (procedure)</td>
+<td>Practice Fusion, 650 Townsend St., Alameda, CA  94501 Phone: 2022559941</td>
+<td>Dr Jillian  Jones MD</td>
+<td>2015-04-14</td></tr>
+<tr ID="Encounter194238137205556841">
+<td>Encounter: Encounter for "check-up" (procedure)</td>
+<td>Practice Fusion, 650 Townsend St., Alameda, CA  94501 Phone: 2022559941</td>
+<td> Vinit  Jain MD</td>
+<td>2015-05-21</td></tr>
+<tr ID="Encounter250410864371147720">
+<td>Encounter: Encounter for "check-up" (procedure)</td>
+<td>Practice Fusion, 650 Townsend St., Alameda, CA  94501 Phone: 2022559941</td>
+<td> Tara  Voeltz MD</td>
+<td>2016-03-07</td></tr></tbody></table></text>
+<entry typeCode="DRIV">
+<encounter classCode="ENC" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.49"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.1.3.2" extension="185149304"></id>
+<code xsi:type="CE" code="185349003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Encounter for &quot;check-up&quot; (procedure)"></code>
+<text><reference value="#Encounter185149304164912547"></reference></text>
+<effectiveTime>
+<low value="20120216000000"></low>
+<high value="20120216000000"></high></effectiveTime>
+<performer typeCode="PRF">
+<assignedEntity>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.1.1.3" extension="1902894298"></id>
+<addr use="WP"><streetAddressLine>650 Townsend St.</streetAddressLine><city>Alameda</city><state>CA</state><postalCode>94501</postalCode><country>United States of America</country></addr>
+<telecom value="tel:(202)255-9941" use="WP"></telecom>
+<assignedPerson>
+<name><prefix>Dr</prefix><given>Paige</given><family>Hurwitz</family></name></assignedPerson></assignedEntity></performer>
+<participant typeCode="LOC">
+<participantRole classCode="SDLOC">
+<templateId root="2.16.840.1.113883.10.20.22.4.32"></templateId>
+<code nullFlavor="NI"></code>
+<addr use="WP"><country>United States of America</country></addr>
+<telecom value="tel:(202)255-9941" use="WP"></telecom></participantRole></participant></encounter></entry>
+<entry typeCode="DRIV">
+<encounter classCode="ENC" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.49"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.1.3.2" extension="185149312"></id>
+<code xsi:type="CE" code="185349003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Encounter for &quot;check-up&quot; (procedure)"></code>
+<text><reference value="#Encounter185149312164912686"></reference></text>
+<effectiveTime>
+<low value="20120405000000"></low>
+<high value="20120405000000"></high></effectiveTime>
+<performer typeCode="PRF">
+<assignedEntity>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.1.1.3" extension="1902894298"></id>
+<addr use="WP"><streetAddressLine>650 Townsend St.</streetAddressLine><city>Alameda</city><state>CA</state><postalCode>94501</postalCode><country>United States of America</country></addr>
+<telecom value="tel:(202)255-9941" use="WP"></telecom>
+<assignedPerson>
+<name><prefix>Dr</prefix><given>Paige</given><family>Hurwitz</family></name></assignedPerson></assignedEntity></performer>
+<participant typeCode="LOC">
+<participantRole classCode="SDLOC">
+<templateId root="2.16.840.1.113883.10.20.22.4.32"></templateId>
+<code nullFlavor="NI"></code>
+<addr use="WP"><country>United States of America</country></addr>
+<telecom value="tel:(202)255-9941" use="WP"></telecom></participantRole></participant></encounter></entry>
+<entry typeCode="DRIV">
+<encounter classCode="ENC" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.49"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.1.3.2" extension="186836107"></id>
+<code xsi:type="CE" code="185349003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Encounter for &quot;check-up&quot; (procedure)"></code>
+<text><reference value="#Encounter186836107170719263"></reference></text>
+<effectiveTime>
+<low value="20150414000000"></low>
+<high value="20150414000000"></high></effectiveTime>
+<performer typeCode="PRF">
+<assignedEntity>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.1.1.3" extension="4040217984"></id>
+<addr use="WP"><streetAddressLine>650 Townsend St.</streetAddressLine><city>Alameda</city><state>CA</state><postalCode>94501</postalCode><country>United States of America</country></addr>
+<telecom value="tel:(202)255-9941" use="WP"></telecom>
+<assignedPerson>
+<name><prefix>Dr</prefix><given>Jillian</given><family>Jones</family><suffix>MD</suffix></name></assignedPerson></assignedEntity></performer>
+<participant typeCode="LOC">
+<participantRole classCode="SDLOC">
+<templateId root="2.16.840.1.113883.10.20.22.4.32"></templateId>
+<code nullFlavor="NI"></code>
+<addr use="WP"><country>United States of America</country></addr>
+<telecom value="tel:(202)255-9941" use="WP"></telecom></participantRole></participant></encounter></entry>
+<entry typeCode="DRIV">
+<encounter classCode="ENC" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.49"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.1.3.2" extension="194238137"></id>
+<code xsi:type="CE" code="185349003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Encounter for &quot;check-up&quot; (procedure)"></code>
+<text><reference value="#Encounter194238137205556841"></reference></text>
+<effectiveTime>
+<low value="20150521000000"></low>
+<high value="20150521000000"></high></effectiveTime>
+<performer typeCode="PRF">
+<assignedEntity>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.1.1.3" extension="992125"></id>
+<addr use="WP"><streetAddressLine>650 Townsend St.</streetAddressLine><city>Alameda</city><state>CA</state><postalCode>94501</postalCode><country>United States of America</country></addr>
+<telecom value="tel:(202)255-9941" use="WP"></telecom>
+<assignedPerson>
+<name><given>Vinit</given><family>Jain</family><suffix>MD</suffix></name></assignedPerson></assignedEntity></performer>
+<participant typeCode="LOC">
+<participantRole classCode="SDLOC">
+<templateId root="2.16.840.1.113883.10.20.22.4.32"></templateId>
+<code nullFlavor="NI"></code>
+<addr use="WP"><country>United States of America</country></addr>
+<telecom value="tel:(202)255-9941" use="WP"></telecom></participantRole></participant></encounter></entry>
+<entry typeCode="DRIV">
+<encounter classCode="ENC" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.49"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.1.3.2" extension="250410864"></id>
+<code xsi:type="CE" code="185349003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Encounter for &quot;check-up&quot; (procedure)"></code>
+<text><reference value="#Encounter250410864371147720"></reference></text>
+<effectiveTime>
+<low value="20160307000000"></low>
+<high value="20160307000000"></high></effectiveTime>
+<performer typeCode="PRF">
+<assignedEntity>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.1.1.3" extension="1191963"></id>
+<addr use="WP"><streetAddressLine>650 Townsend St.</streetAddressLine><city>Alameda</city><state>CA</state><postalCode>94501</postalCode><country>United States of America</country></addr>
+<telecom value="tel:(202)255-9941" use="WP"></telecom>
+<assignedPerson>
+<name><given>Tara</given><family>Voeltz</family><suffix>MD</suffix></name></assignedPerson></assignedEntity></performer>
+<participant typeCode="LOC">
+<participantRole classCode="SDLOC">
+<templateId root="2.16.840.1.113883.10.20.22.4.32"></templateId>
+<code nullFlavor="NI"></code>
+<addr use="WP"><country>United States of America</country></addr>
+<telecom value="tel:(202)255-9941" use="WP"></telecom></participantRole></participant></encounter></entry></section></component>
+<component>
+<section>
+<templateId root="2.16.840.1.113883.10.20.22.2.2.1"></templateId>
+<code code="11369-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="History of Immunizations"></code>
+<title>Immunizations</title>
+<text><table width="95%" border="1">
+<thead>
+<tr>
+<th>Vaccine</th>
+<th>Date</th>
+<th>Delivery Status</th></tr></thead>
+<tbody>
+<tr ID="immun1">
+<td>No immunizations administered during visit</td>
+<td>Not Applicable</td>
+<td>Not Applicable</td></tr></tbody></table></text>
+<entry>
+<substanceAdministration classCode="SBADM" moodCode="EVN" negationInd="true">
+<templateId root="2.16.840.1.113883.10.20.22.4.52"></templateId>
+<id nullFlavor="NA"></id>
+<text><reference value="#immun1"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime xsi:type="IVL_TS">
+<low value="20160321133336"></low>
+<high value="20160321133336"></high></effectiveTime>
+<doseQuantity value="0"></doseQuantity>
+<consumable>
+<manufacturedProduct classCode="MANU">
+<templateId root="2.16.840.1.113883.10.20.22.4.54"></templateId>
+<manufacturedMaterial>
+<code nullFlavor="NA"></code></manufacturedMaterial></manufacturedProduct></consumable></substanceAdministration></entry></section></component>
+<component>
+<section>
+<templateId root="2.16.840.1.113883.10.20.22.2.45"></templateId>
+<code code="69730-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Instructions"></code>
+<title>Instructions</title>
+<text><table>
+<thead>
+<tr>
+<th>Instructions</th></tr></thead>
+<tbody>
+<tr ID="Section185149304">
+<td>No Education resources were given to the patient during the visit</td></tr></tbody></table></text>
+<entry typeCode="DRIV">
+<act classCode="ACT" moodCode="INT">
+<templateId root="2.16.840.1.113883.10.20.22.4.20"></templateId>
+<code xsi:type="CE" nullFlavor="NI"></code>
+<text><reference value="#Section185149304"></reference></text>
+<statusCode code="completed"></statusCode></act></entry></section></component>
+<component>
+<section>
+<templateId root="2.16.840.1.113883.10.20.22.2.1.1"></templateId>
+<code code="10160-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="History of Medication Use"></code>
+<title>Medications</title>
+<text><table width="95%" border="1">
+<thead>
+<tr>
+<th>Material</th>
+<th>RXnormCode</th>
+<th>GenericName</th>
+<th>ProductStrength</th>
+<th>StartDate</th>
+<th>StopDate</th>
+<th>SIG</th></tr></thead>
+<tbody>
+<tr ID="Med162676426">
+<td>Ibuprofen 100 MG/5ML Oral Suspension</td>
+<td>RxNorm: 197803</td>
+<td>Ibuprofen</td>
+<td>100 MG/5ML</td>
+<td>2016-02-29</td>
+<td>2016-03-07</td>
+<td>200 mg orally every 6 hours</td></tr>
+<tr ID="Med162799590">
+<td>Ambien 10 MG Oral Tablet</td>
+<td>RxNorm: 854873</td>
+<td>Zolpidem Tartrate</td>
+<td>10 MG</td>
+<td>Not Indicated</td>
+<td>Not Indicated</td>
+<td>Not Indicated</td></tr>
+<tr ID="Med162813343">
+<td>Penicillin V Potassium 250 MG Oral Tablet</td>
+<td>RxNorm: 834061</td>
+<td>Penicillin V Potassium</td>
+<td>250 MG</td>
+<td>2016-03-01</td>
+<td>Not Indicated</td>
+<td>Take 1 tablet (250 mg) by mouth 2 times per day</td></tr>
+<tr ID="Med162841920">
+<td>Ibu-Drops 40 MG/ML Oral Suspension</td>
+<td>RxNorm: 204442</td>
+<td>Ibuprofen</td>
+<td>40 MG/ML</td>
+<td>Not Indicated</td>
+<td>Not Indicated</td>
+<td>Not Indicated</td></tr>
+<tr ID="Med162844541">
+<td>Ibuprofen 200 MG Oral Tablet</td>
+<td>RxNorm: 310965</td>
+<td>Ibuprofen</td>
+<td>200 MG</td>
+<td>Not Indicated</td>
+<td>Not Indicated</td>
+<td>200 mg orally every 4 hours</td></tr>
+<tr ID="Med162857729">
+<td>Lisinopril 20 MG Oral Tablet</td>
+<td>RxNorm: 314077</td>
+<td>Lisinopril</td>
+<td>20 MG</td>
+<td>Not Indicated</td>
+<td>Not Indicated</td>
+<td>Take 1 tablet (20 mg) by mouth daily</td></tr>
+<tr ID="Med162865594">
+<td>Ibuprofen 200 MG Oral Tablet</td>
+<td>RxNorm: 310965</td>
+<td>Ibuprofen</td>
+<td>200 MG</td>
+<td>Not Indicated</td>
+<td>Not Indicated</td>
+<td>Take 1 tablet (200 mg) by mouth every 6 hours as needed</td></tr>
+<tr ID="Med162983290">
+<td>Amoxicillin 250 MG Oral Capsule</td>
+<td>RxNorm: 308182</td>
+<td>Amoxicillin</td>
+<td>250 MG</td>
+<td>2016-03-02</td>
+<td>Not Indicated</td>
+<td>Take 2 capsules (500 mg) by mouth every 12 hours for 10 days</td></tr>
+<tr ID="Med163011552">
+<td>Ibu-Drops 40 MG/ML Oral Suspension</td>
+<td>RxNorm: 204442</td>
+<td>Ibuprofen</td>
+<td>40 MG/ML</td>
+<td>Not Indicated</td>
+<td>Not Indicated</td>
+<td>Not Indicated</td></tr>
+<tr ID="Med163048929">
+<td>MetFORMIN HCl 500 MG Oral Tablet</td>
+<td>RxNorm: 861007</td>
+<td>Metformin HCl</td>
+<td>500 MG</td>
+<td>Not Indicated</td>
+<td>Not Indicated</td>
+<td>Not Indicated</td></tr>
+<tr ID="Med163056649">
+<td>Xanax 0.5 MG Oral Tablet</td>
+<td>RxNorm: 308048</td>
+<td>Alprazolam</td>
+<td>0.5 MG</td>
+<td>Not Indicated</td>
+<td>Not Indicated</td>
+<td>Not Indicated</td></tr>
+<tr ID="Med163061430">
+<td>Lisinopril 2.5 MG Oral Tablet</td>
+<td>RxNorm: 311353</td>
+<td>Lisinopril</td>
+<td>2.5 MG</td>
+<td>2016-03-02</td>
+<td>Not Indicated</td>
+<td>Take 1 tablet (2.5 mg) by mouth daily</td></tr>
+<tr ID="Med163068247">
+<td>Amoxicillin 250 MG Oral Capsule</td>
+<td>RxNorm: 308182</td>
+<td>Amoxicillin</td>
+<td>250 MG</td>
+<td>Not Indicated</td>
+<td>Not Indicated</td>
+<td>Take 1 capsule (250 mg) by mouth every 8 hours for 10 days</td></tr>
+<tr ID="Med163183696">
+<td>Penicillin V Potassium 250 MG Oral Tablet</td>
+<td>RxNorm: 834061</td>
+<td>Penicillin V Potassium</td>
+<td>250 MG</td>
+<td>2016-03-03</td>
+<td>Not Indicated</td>
+<td>Take 1 tablet (250 mg) by mouth 2 times per day</td></tr>
+<tr ID="Med163186928">
+<td>MetFORMIN HCl 1000 MG Oral Tablet</td>
+<td>RxNorm: 861004</td>
+<td>Metformin HCl</td>
+<td>1000 MG</td>
+<td>2016-03-03</td>
+<td>Not Indicated</td>
+<td>Take half of a tablet (500 mg) by mouth 3 times per day with meals</td></tr>
+<tr ID="Med122159509">
+<td>Advair Diskus 250-50 MCG/DOSE Inhalation Aerosol Powder Breath Activated</td>
+<td>RxNorm: 896209</td>
+<td>Fluticasone-Salmeterol</td>
+<td>250-50 MCG/DOSE</td>
+<td>2012-04-15</td>
+<td>Not Indicated</td>
+<td>1 puff inhaled orally 2 times per day</td></tr>
+<tr ID="Med122159556">
+<td>Acetaminophen 500 MG Oral Tablet</td>
+<td>RxNorm: 198440</td>
+<td>Acetaminophen</td>
+<td>500 MG</td>
+<td>2010-07-23</td>
+<td>Not Indicated</td>
+<td>Take 1 tablet (500 mg) by mouth every 4 hours as needed</td></tr>
+<tr ID="Med123124643">
+<td>Topamax Sprinkle 25 MG Oral Capsule Sprinkle</td>
+<td>RxNorm: 205315</td>
+<td>Topiramate</td>
+<td>25 MG</td>
+<td>2015-04-13</td>
+<td>Not Indicated</td>
+<td>Take 1 capsule (25 mg) by mouth 2 times per day</td></tr>
+<tr ID="Med123337163">
+<td>MetFORMIN HCl 500 MG Oral Tablet</td>
+<td>RxNorm: 861007</td>
+<td>Metformin HCl</td>
+<td>500 MG</td>
+<td>Not Indicated</td>
+<td>Not Indicated</td>
+<td>Not Indicated</td></tr>
+<tr ID="Med162161799">
+<td>Lisinopril 20 MG Oral Tablet</td>
+<td>RxNorm: 314077</td>
+<td>Lisinopril</td>
+<td>20 MG</td>
+<td>Not Indicated</td>
+<td>Not Indicated</td>
+<td>Take 1 tablet (20 mg) by mouth daily</td></tr>
+<tr ID="Med162162353">
+<td>EQ Ibuprofen 200 MG Oral Capsule</td>
+<td>RxNorm: 310964</td>
+<td>Ibuprofen</td>
+<td>200 MG</td>
+<td>Not Indicated</td>
+<td>Not Indicated</td>
+<td>Take 1 capsule (200 mg) by mouth one time</td></tr>
+<tr ID="Med162600957">
+<td>Lisinopril 10 MG Oral Tablet</td>
+<td>RxNorm: 314076</td>
+<td>Lisinopril</td>
+<td>10 MG</td>
+<td>2016-02-29</td>
+<td>Not Indicated</td>
+<td>Take 1 tablet (10 mg) by mouth daily</td></tr>
+<tr ID="Med162676153">
+<td>Lisinopril 10 MG Oral Tablet</td>
+<td>RxNorm: 314076</td>
+<td>Lisinopril</td>
+<td>10 MG</td>
+<td>Not Indicated</td>
+<td>Not Indicated</td>
+<td>Not Indicated</td></tr></tbody></table></text>
+<entry typeCode="DRIV">
+<substanceAdministration classCode="SBADM" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.16"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.1.4.1" extension="122159509"></id>
+<text><reference value="#Med122159509"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime xsi:type="IVL_TS">
+<low value="20120415070000"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<consumable>
+<manufacturedProduct classCode="MANU">
+<templateId root="2.16.840.1.113883.10.20.22.4.23"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.1.4.1" extension="122159509"></id>
+<manufacturedMaterial>
+<code code="896209" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm" displayName="Fluticasone-Salmeterol 250-50 MCG/DOSE"></code></manufacturedMaterial></manufacturedProduct></consumable>
+<entryRelationship typeCode="SUBJ" inversionInd="true">
+<act classCode="ACT" moodCode="INT">
+<templateId root="2.16.840.1.113883.10.20.22.4.20"></templateId>
+<code xsi:type="CE" code="409073007" codeSystem="2.16.840.1.113883.6.96" displayName="instruction"></code>
+<statusCode code="completed"></statusCode></act></entryRelationship></substanceAdministration></entry>
+<entry typeCode="DRIV">
+<substanceAdministration classCode="SBADM" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.16"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.1.4.1" extension="122159556"></id>
+<text><reference value="#Med122159556"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime xsi:type="IVL_TS">
+<low value="20100723070000"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<consumable>
+<manufacturedProduct classCode="MANU">
+<templateId root="2.16.840.1.113883.10.20.22.4.23"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.1.4.1" extension="122159556"></id>
+<manufacturedMaterial>
+<code code="198440" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm" displayName="Acetaminophen 500 MG"></code></manufacturedMaterial></manufacturedProduct></consumable>
+<entryRelationship typeCode="SUBJ" inversionInd="true">
+<act classCode="ACT" moodCode="INT">
+<templateId root="2.16.840.1.113883.10.20.22.4.20"></templateId>
+<code xsi:type="CE" code="409073007" codeSystem="2.16.840.1.113883.6.96" displayName="instruction"></code>
+<statusCode code="completed"></statusCode></act></entryRelationship></substanceAdministration></entry>
+<entry typeCode="DRIV">
+<substanceAdministration classCode="SBADM" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.16"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.1.4.1" extension="123124643"></id>
+<text><reference value="#Med123124643"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime xsi:type="IVL_TS">
+<low value="20150413050000"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<consumable>
+<manufacturedProduct classCode="MANU">
+<templateId root="2.16.840.1.113883.10.20.22.4.23"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.1.4.1" extension="123124643"></id>
+<manufacturedMaterial>
+<code code="205315" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm" displayName="Topiramate 25 MG"></code></manufacturedMaterial></manufacturedProduct></consumable>
+<entryRelationship typeCode="SUBJ" inversionInd="true">
+<act classCode="ACT" moodCode="INT">
+<templateId root="2.16.840.1.113883.10.20.22.4.20"></templateId>
+<code xsi:type="CE" code="409073007" codeSystem="2.16.840.1.113883.6.96" displayName="instruction"></code>
+<statusCode code="completed"></statusCode></act></entryRelationship></substanceAdministration></entry>
+<entry typeCode="DRIV">
+<substanceAdministration classCode="SBADM" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.16"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.1.4.1" extension="123337163"></id>
+<text><reference value="#Med123337163"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime xsi:type="IVL_TS">
+<low nullFlavor="NI"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<consumable>
+<manufacturedProduct classCode="MANU">
+<templateId root="2.16.840.1.113883.10.20.22.4.23"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.1.4.1" extension="123337163"></id>
+<manufacturedMaterial>
+<code code="861007" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm" displayName="Metformin HCl 500 MG"></code></manufacturedMaterial></manufacturedProduct></consumable>
+<entryRelationship typeCode="SUBJ" inversionInd="true">
+<act classCode="ACT" moodCode="INT">
+<templateId root="2.16.840.1.113883.10.20.22.4.20"></templateId>
+<code xsi:type="CE" code="409073007" codeSystem="2.16.840.1.113883.6.96" displayName="instruction"></code>
+<statusCode code="completed"></statusCode></act></entryRelationship></substanceAdministration></entry>
+<entry typeCode="DRIV">
+<substanceAdministration classCode="SBADM" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.16"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.1.4.1" extension="162161799"></id>
+<text><reference value="#Med162161799"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime xsi:type="IVL_TS">
+<low nullFlavor="NI"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<consumable>
+<manufacturedProduct classCode="MANU">
+<templateId root="2.16.840.1.113883.10.20.22.4.23"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.1.4.1" extension="162161799"></id>
+<manufacturedMaterial>
+<code code="314077" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm" displayName="Lisinopril 20 MG"></code></manufacturedMaterial></manufacturedProduct></consumable>
+<entryRelationship typeCode="SUBJ" inversionInd="true">
+<act classCode="ACT" moodCode="INT">
+<templateId root="2.16.840.1.113883.10.20.22.4.20"></templateId>
+<code xsi:type="CE" code="409073007" codeSystem="2.16.840.1.113883.6.96" displayName="instruction"></code>
+<statusCode code="completed"></statusCode></act></entryRelationship></substanceAdministration></entry>
+<entry typeCode="DRIV">
+<substanceAdministration classCode="SBADM" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.16"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.1.4.1" extension="162162353"></id>
+<text><reference value="#Med162162353"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime xsi:type="IVL_TS">
+<low nullFlavor="NI"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<consumable>
+<manufacturedProduct classCode="MANU">
+<templateId root="2.16.840.1.113883.10.20.22.4.23"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.1.4.1" extension="162162353"></id>
+<manufacturedMaterial>
+<code code="310964" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm" displayName="Ibuprofen 200 MG"></code></manufacturedMaterial></manufacturedProduct></consumable>
+<entryRelationship typeCode="SUBJ" inversionInd="true">
+<act classCode="ACT" moodCode="INT">
+<templateId root="2.16.840.1.113883.10.20.22.4.20"></templateId>
+<code xsi:type="CE" code="409073007" codeSystem="2.16.840.1.113883.6.96" displayName="instruction"></code>
+<statusCode code="completed"></statusCode></act></entryRelationship></substanceAdministration></entry>
+<entry typeCode="DRIV">
+<substanceAdministration classCode="SBADM" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.16"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.1.4.1" extension="162600957"></id>
+<text><reference value="#Med162600957"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime xsi:type="IVL_TS">
+<low value="20160229080000"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<consumable>
+<manufacturedProduct classCode="MANU">
+<templateId root="2.16.840.1.113883.10.20.22.4.23"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.1.4.1" extension="162600957"></id>
+<manufacturedMaterial>
+<code code="314076" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm" displayName="Lisinopril 10 MG"></code></manufacturedMaterial></manufacturedProduct></consumable>
+<entryRelationship typeCode="SUBJ" inversionInd="true">
+<act classCode="ACT" moodCode="INT">
+<templateId root="2.16.840.1.113883.10.20.22.4.20"></templateId>
+<code xsi:type="CE" code="409073007" codeSystem="2.16.840.1.113883.6.96" displayName="instruction"></code>
+<statusCode code="completed"></statusCode></act></entryRelationship></substanceAdministration></entry>
+<entry typeCode="DRIV">
+<substanceAdministration classCode="SBADM" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.16"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.1.4.1" extension="162676153"></id>
+<text><reference value="#Med162676153"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime xsi:type="IVL_TS">
+<low nullFlavor="NI"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<consumable>
+<manufacturedProduct classCode="MANU">
+<templateId root="2.16.840.1.113883.10.20.22.4.23"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.1.4.1" extension="162676153"></id>
+<manufacturedMaterial>
+<code code="314076" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm" displayName="Lisinopril 10 MG"></code></manufacturedMaterial></manufacturedProduct></consumable>
+<entryRelationship typeCode="SUBJ" inversionInd="true">
+<act classCode="ACT" moodCode="INT">
+<templateId root="2.16.840.1.113883.10.20.22.4.20"></templateId>
+<code xsi:type="CE" code="409073007" codeSystem="2.16.840.1.113883.6.96" displayName="instruction"></code>
+<statusCode code="completed"></statusCode></act></entryRelationship></substanceAdministration></entry>
+<entry typeCode="DRIV">
+<substanceAdministration classCode="SBADM" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.16"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.1.4.1" extension="162676426"></id>
+<text><reference value="#Med162676426"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime xsi:type="IVL_TS">
+<low value="20160229080000"></low>
+<high value="20160307080000"></high></effectiveTime>
+<consumable>
+<manufacturedProduct classCode="MANU">
+<templateId root="2.16.840.1.113883.10.20.22.4.23"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.1.4.1" extension="162676426"></id>
+<manufacturedMaterial>
+<code code="197803" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm" displayName="Ibuprofen 100 MG/5ML"></code></manufacturedMaterial></manufacturedProduct></consumable>
+<entryRelationship typeCode="SUBJ" inversionInd="true">
+<act classCode="ACT" moodCode="INT">
+<templateId root="2.16.840.1.113883.10.20.22.4.20"></templateId>
+<code xsi:type="CE" code="409073007" codeSystem="2.16.840.1.113883.6.96" displayName="instruction"></code>
+<statusCode code="completed"></statusCode></act></entryRelationship></substanceAdministration></entry>
+<entry typeCode="DRIV">
+<substanceAdministration classCode="SBADM" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.16"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.1.4.1" extension="162799590"></id>
+<text><reference value="#Med162799590"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime xsi:type="IVL_TS">
+<low nullFlavor="NI"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<consumable>
+<manufacturedProduct classCode="MANU">
+<templateId root="2.16.840.1.113883.10.20.22.4.23"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.1.4.1" extension="162799590"></id>
+<manufacturedMaterial>
+<code code="854873" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm" displayName="Zolpidem Tartrate 10 MG"></code></manufacturedMaterial></manufacturedProduct></consumable>
+<entryRelationship typeCode="SUBJ" inversionInd="true">
+<act classCode="ACT" moodCode="INT">
+<templateId root="2.16.840.1.113883.10.20.22.4.20"></templateId>
+<code xsi:type="CE" code="409073007" codeSystem="2.16.840.1.113883.6.96" displayName="instruction"></code>
+<statusCode code="completed"></statusCode></act></entryRelationship></substanceAdministration></entry>
+<entry typeCode="DRIV">
+<substanceAdministration classCode="SBADM" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.16"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.1.4.1" extension="162813343"></id>
+<text><reference value="#Med162813343"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime xsi:type="IVL_TS">
+<low value="20160301080000"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<consumable>
+<manufacturedProduct classCode="MANU">
+<templateId root="2.16.840.1.113883.10.20.22.4.23"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.1.4.1" extension="162813343"></id>
+<manufacturedMaterial>
+<code code="834061" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm" displayName="Penicillin V Potassium 250 MG"></code></manufacturedMaterial></manufacturedProduct></consumable>
+<entryRelationship typeCode="SUBJ" inversionInd="true">
+<act classCode="ACT" moodCode="INT">
+<templateId root="2.16.840.1.113883.10.20.22.4.20"></templateId>
+<code xsi:type="CE" code="409073007" codeSystem="2.16.840.1.113883.6.96" displayName="instruction"></code>
+<statusCode code="completed"></statusCode></act></entryRelationship></substanceAdministration></entry>
+<entry typeCode="DRIV">
+<substanceAdministration classCode="SBADM" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.16"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.1.4.1" extension="162841920"></id>
+<text><reference value="#Med162841920"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime xsi:type="IVL_TS">
+<low nullFlavor="NI"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<consumable>
+<manufacturedProduct classCode="MANU">
+<templateId root="2.16.840.1.113883.10.20.22.4.23"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.1.4.1" extension="162841920"></id>
+<manufacturedMaterial>
+<code code="204442" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm" displayName="Ibuprofen 40 MG/ML"></code></manufacturedMaterial></manufacturedProduct></consumable>
+<entryRelationship typeCode="SUBJ" inversionInd="true">
+<act classCode="ACT" moodCode="INT">
+<templateId root="2.16.840.1.113883.10.20.22.4.20"></templateId>
+<code xsi:type="CE" code="409073007" codeSystem="2.16.840.1.113883.6.96" displayName="instruction"></code>
+<statusCode code="completed"></statusCode></act></entryRelationship></substanceAdministration></entry>
+<entry typeCode="DRIV">
+<substanceAdministration classCode="SBADM" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.16"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.1.4.1" extension="162844541"></id>
+<text><reference value="#Med162844541"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime xsi:type="IVL_TS">
+<low nullFlavor="NI"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<consumable>
+<manufacturedProduct classCode="MANU">
+<templateId root="2.16.840.1.113883.10.20.22.4.23"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.1.4.1" extension="162844541"></id>
+<manufacturedMaterial>
+<code code="310965" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm" displayName="Ibuprofen 200 MG"></code></manufacturedMaterial></manufacturedProduct></consumable>
+<entryRelationship typeCode="SUBJ" inversionInd="true">
+<act classCode="ACT" moodCode="INT">
+<templateId root="2.16.840.1.113883.10.20.22.4.20"></templateId>
+<code xsi:type="CE" code="409073007" codeSystem="2.16.840.1.113883.6.96" displayName="instruction"></code>
+<statusCode code="completed"></statusCode></act></entryRelationship></substanceAdministration></entry>
+<entry typeCode="DRIV">
+<substanceAdministration classCode="SBADM" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.16"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.1.4.1" extension="162857729"></id>
+<text><reference value="#Med162857729"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime xsi:type="IVL_TS">
+<low nullFlavor="NI"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<consumable>
+<manufacturedProduct classCode="MANU">
+<templateId root="2.16.840.1.113883.10.20.22.4.23"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.1.4.1" extension="162857729"></id>
+<manufacturedMaterial>
+<code code="314077" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm" displayName="Lisinopril 20 MG"></code></manufacturedMaterial></manufacturedProduct></consumable>
+<entryRelationship typeCode="SUBJ" inversionInd="true">
+<act classCode="ACT" moodCode="INT">
+<templateId root="2.16.840.1.113883.10.20.22.4.20"></templateId>
+<code xsi:type="CE" code="409073007" codeSystem="2.16.840.1.113883.6.96" displayName="instruction"></code>
+<statusCode code="completed"></statusCode></act></entryRelationship></substanceAdministration></entry>
+<entry typeCode="DRIV">
+<substanceAdministration classCode="SBADM" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.16"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.1.4.1" extension="162865594"></id>
+<text><reference value="#Med162865594"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime xsi:type="IVL_TS">
+<low nullFlavor="NI"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<consumable>
+<manufacturedProduct classCode="MANU">
+<templateId root="2.16.840.1.113883.10.20.22.4.23"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.1.4.1" extension="162865594"></id>
+<manufacturedMaterial>
+<code code="310965" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm" displayName="Ibuprofen 200 MG"></code></manufacturedMaterial></manufacturedProduct></consumable>
+<entryRelationship typeCode="SUBJ" inversionInd="true">
+<act classCode="ACT" moodCode="INT">
+<templateId root="2.16.840.1.113883.10.20.22.4.20"></templateId>
+<code xsi:type="CE" code="409073007" codeSystem="2.16.840.1.113883.6.96" displayName="instruction"></code>
+<statusCode code="completed"></statusCode></act></entryRelationship></substanceAdministration></entry>
+<entry typeCode="DRIV">
+<substanceAdministration classCode="SBADM" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.16"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.1.4.1" extension="162983290"></id>
+<text><reference value="#Med162983290"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime xsi:type="IVL_TS">
+<low value="20160302080000"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<consumable>
+<manufacturedProduct classCode="MANU">
+<templateId root="2.16.840.1.113883.10.20.22.4.23"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.1.4.1" extension="162983290"></id>
+<manufacturedMaterial>
+<code code="308182" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm" displayName="Amoxicillin 250 MG"></code></manufacturedMaterial></manufacturedProduct></consumable>
+<entryRelationship typeCode="SUBJ" inversionInd="true">
+<act classCode="ACT" moodCode="INT">
+<templateId root="2.16.840.1.113883.10.20.22.4.20"></templateId>
+<code xsi:type="CE" code="409073007" codeSystem="2.16.840.1.113883.6.96" displayName="instruction"></code>
+<statusCode code="completed"></statusCode></act></entryRelationship></substanceAdministration></entry>
+<entry typeCode="DRIV">
+<substanceAdministration classCode="SBADM" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.16"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.1.4.1" extension="163011552"></id>
+<text><reference value="#Med163011552"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime xsi:type="IVL_TS">
+<low nullFlavor="NI"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<consumable>
+<manufacturedProduct classCode="MANU">
+<templateId root="2.16.840.1.113883.10.20.22.4.23"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.1.4.1" extension="163011552"></id>
+<manufacturedMaterial>
+<code code="204442" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm" displayName="Ibuprofen 40 MG/ML"></code></manufacturedMaterial></manufacturedProduct></consumable>
+<entryRelationship typeCode="SUBJ" inversionInd="true">
+<act classCode="ACT" moodCode="INT">
+<templateId root="2.16.840.1.113883.10.20.22.4.20"></templateId>
+<code xsi:type="CE" code="409073007" codeSystem="2.16.840.1.113883.6.96" displayName="instruction"></code>
+<statusCode code="completed"></statusCode></act></entryRelationship></substanceAdministration></entry>
+<entry typeCode="DRIV">
+<substanceAdministration classCode="SBADM" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.16"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.1.4.1" extension="163048929"></id>
+<text><reference value="#Med163048929"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime xsi:type="IVL_TS">
+<low nullFlavor="NI"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<consumable>
+<manufacturedProduct classCode="MANU">
+<templateId root="2.16.840.1.113883.10.20.22.4.23"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.1.4.1" extension="163048929"></id>
+<manufacturedMaterial>
+<code code="861007" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm" displayName="Metformin HCl 500 MG"></code></manufacturedMaterial></manufacturedProduct></consumable>
+<entryRelationship typeCode="SUBJ" inversionInd="true">
+<act classCode="ACT" moodCode="INT">
+<templateId root="2.16.840.1.113883.10.20.22.4.20"></templateId>
+<code xsi:type="CE" code="409073007" codeSystem="2.16.840.1.113883.6.96" displayName="instruction"></code>
+<statusCode code="completed"></statusCode></act></entryRelationship></substanceAdministration></entry>
+<entry typeCode="DRIV">
+<substanceAdministration classCode="SBADM" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.16"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.1.4.1" extension="163056649"></id>
+<text><reference value="#Med163056649"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime xsi:type="IVL_TS">
+<low nullFlavor="NI"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<consumable>
+<manufacturedProduct classCode="MANU">
+<templateId root="2.16.840.1.113883.10.20.22.4.23"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.1.4.1" extension="163056649"></id>
+<manufacturedMaterial>
+<code code="308048" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm" displayName="Alprazolam 0.5 MG"></code></manufacturedMaterial></manufacturedProduct></consumable>
+<entryRelationship typeCode="SUBJ" inversionInd="true">
+<act classCode="ACT" moodCode="INT">
+<templateId root="2.16.840.1.113883.10.20.22.4.20"></templateId>
+<code xsi:type="CE" code="409073007" codeSystem="2.16.840.1.113883.6.96" displayName="instruction"></code>
+<statusCode code="completed"></statusCode></act></entryRelationship></substanceAdministration></entry>
+<entry typeCode="DRIV">
+<substanceAdministration classCode="SBADM" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.16"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.1.4.1" extension="163061430"></id>
+<text><reference value="#Med163061430"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime xsi:type="IVL_TS">
+<low value="20160302080000"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<consumable>
+<manufacturedProduct classCode="MANU">
+<templateId root="2.16.840.1.113883.10.20.22.4.23"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.1.4.1" extension="163061430"></id>
+<manufacturedMaterial>
+<code code="311353" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm" displayName="Lisinopril 2.5 MG"></code></manufacturedMaterial></manufacturedProduct></consumable>
+<entryRelationship typeCode="SUBJ" inversionInd="true">
+<act classCode="ACT" moodCode="INT">
+<templateId root="2.16.840.1.113883.10.20.22.4.20"></templateId>
+<code xsi:type="CE" code="409073007" codeSystem="2.16.840.1.113883.6.96" displayName="instruction"></code>
+<statusCode code="completed"></statusCode></act></entryRelationship></substanceAdministration></entry>
+<entry typeCode="DRIV">
+<substanceAdministration classCode="SBADM" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.16"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.1.4.1" extension="163068247"></id>
+<text><reference value="#Med163068247"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime xsi:type="IVL_TS">
+<low nullFlavor="NI"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<consumable>
+<manufacturedProduct classCode="MANU">
+<templateId root="2.16.840.1.113883.10.20.22.4.23"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.1.4.1" extension="163068247"></id>
+<manufacturedMaterial>
+<code code="308182" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm" displayName="Amoxicillin 250 MG"></code></manufacturedMaterial></manufacturedProduct></consumable>
+<entryRelationship typeCode="SUBJ" inversionInd="true">
+<act classCode="ACT" moodCode="INT">
+<templateId root="2.16.840.1.113883.10.20.22.4.20"></templateId>
+<code xsi:type="CE" code="409073007" codeSystem="2.16.840.1.113883.6.96" displayName="instruction"></code>
+<statusCode code="completed"></statusCode></act></entryRelationship></substanceAdministration></entry>
+<entry typeCode="DRIV">
+<substanceAdministration classCode="SBADM" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.16"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.1.4.1" extension="163183696"></id>
+<text><reference value="#Med163183696"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime xsi:type="IVL_TS">
+<low value="20160303080000"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<consumable>
+<manufacturedProduct classCode="MANU">
+<templateId root="2.16.840.1.113883.10.20.22.4.23"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.1.4.1" extension="163183696"></id>
+<manufacturedMaterial>
+<code code="834061" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm" displayName="Penicillin V Potassium 250 MG"></code></manufacturedMaterial></manufacturedProduct></consumable>
+<entryRelationship typeCode="SUBJ" inversionInd="true">
+<act classCode="ACT" moodCode="INT">
+<templateId root="2.16.840.1.113883.10.20.22.4.20"></templateId>
+<code xsi:type="CE" code="409073007" codeSystem="2.16.840.1.113883.6.96" displayName="instruction"></code>
+<statusCode code="completed"></statusCode></act></entryRelationship></substanceAdministration></entry>
+<entry typeCode="DRIV">
+<substanceAdministration classCode="SBADM" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.16"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.1.4.1" extension="163186928"></id>
+<text><reference value="#Med163186928"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime xsi:type="IVL_TS">
+<low value="20160303080000"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<consumable>
+<manufacturedProduct classCode="MANU">
+<templateId root="2.16.840.1.113883.10.20.22.4.23"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.1.4.1" extension="163186928"></id>
+<manufacturedMaterial>
+<code code="861004" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm" displayName="Metformin HCl 1000 MG"></code></manufacturedMaterial></manufacturedProduct></consumable>
+<entryRelationship typeCode="SUBJ" inversionInd="true">
+<act classCode="ACT" moodCode="INT">
+<templateId root="2.16.840.1.113883.10.20.22.4.20"></templateId>
+<code xsi:type="CE" code="409073007" codeSystem="2.16.840.1.113883.6.96" displayName="instruction"></code>
+<statusCode code="completed"></statusCode></act></entryRelationship></substanceAdministration></entry></section></component>
+<component>
+<section>
+<templateId root="2.16.840.1.113883.10.20.22.2.5.1"></templateId>
+<code code="11450-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Problem List"></code>
+<title>Problem List</title>
+<text><table width="95%" border="1">
+<thead>
+<tr>
+<th>Problem Description</th>
+<th>Problem StartDate</th>
+<th>Status</th></tr></thead>
+<tbody>
+<tr ID="problem99327870">
+<td>Preinfarction syndrome</td>
+<td>2014-10-09</td>
+<td>active</td></tr>
+<tr ID="problem99327882">
+<td>Myocardial infarction</td>
+<td>2014-09-16</td>
+<td>active</td></tr>
+<tr ID="problem99327907">
+<td>Arthritis of hip</td>
+<td>2008-06-25</td>
+<td>active</td></tr>
+<tr ID="problem99327936">
+<td>Glaucoma</td>
+<td>2012-02-05</td>
+<td>active</td></tr>
+<tr ID="problem99328604">
+<td>Herpes zoster</td>
+<td>2014-02-02</td>
+<td>completed</td></tr>
+<tr ID="problem100304664">
+<td>Low back pain</td>
+<td>Not Applicable</td>
+<td>active</td></tr>
+<tr ID="problem100319939">
+<td>Diabetes mellitus</td>
+<td>Not Applicable</td>
+<td>active</td></tr>
+<tr ID="problem100390472">
+<td>Generalized atherosclerosis</td>
+<td>Not Applicable</td>
+<td>active</td></tr>
+<tr ID="problem100415794">
+<td>Diaper rash</td>
+<td>Not Applicable</td>
+<td>active</td></tr>
+<tr ID="problem102174279">
+<td>Diabetic complication</td>
+<td>2015-05-01</td>
+<td>completed</td></tr>
+<tr ID="problem105805926">
+<td>Fracture of femur</td>
+<td>2015-06-05</td>
+<td>active</td></tr>
+<tr ID="problem105806071">
+<td>Closed fracture of hip</td>
+<td>2015-06-05</td>
+<td>active</td></tr>
+<tr ID="problem129756981">
+<td>Influenza</td>
+<td>2015-12-14</td>
+<td>active</td></tr>
+<tr ID="problem139331517">
+<td>Reactive depression (situational)</td>
+<td>Not Applicable</td>
+<td>active</td></tr>
+<tr ID="problem139341154">
+<td>Anxiety</td>
+<td>Not Applicable</td>
+<td>active</td></tr>
+<tr ID="problem139790840">
+<td>Headache</td>
+<td>2016-02-29</td>
+<td>active</td></tr>
+<tr ID="problem140009220">
+<td>Headache</td>
+<td>Not Applicable</td>
+<td>active</td></tr>
+<tr ID="problem140167842">
+<td>Streptococcal sore throat</td>
+<td>2016-03-02</td>
+<td>active</td></tr>
+<tr ID="problem140246946">
+<td>Type 1 diabetes mellitus</td>
+<td>2016-03-02</td>
+<td>active</td></tr>
+<tr ID="problem140365070">
+<td>Streptococcal sore throat</td>
+<td>2016-03-03</td>
+<td>active</td></tr></tbody></table></text>
+<entry typeCode="DRIV">
+<act classCode="ACT" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.3"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3" extension="113740978"></id>
+<code xsi:type="CE" code="CONC" codeSystem="2.16.840.1.113883.5.6" displayName="Concern"></code>
+<statusCode code="active"></statusCode>
+<effectiveTime>
+<low value="20141009070000"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<entryRelationship typeCode="SUBJ">
+<observation classCode="OBS" moodCode="EVN" negationInd="false">
+<templateId root="2.16.840.1.113883.10.20.22.4.4"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.2.1" extension="99327870"></id>
+<code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Diagnosis"></code>
+<text><reference value="#problem99327870"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime>
+<low value="20141009070000"></low></effectiveTime>
+<value xsi:type="CD" code="4557003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Preinfarction syndrome"></value>
+<interpretationCode code="411.1" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" displayName="Intermediate coronary syndrome"></interpretationCode>
+<performer typeCode="PRF">
+<assignedEntity>
+<id root="2.16.840.1.113883.3.3388.1.1.432275.4.1.3" extension="1902894298"></id>
+<addr use="WP"><streetAddressLine>650 Townsend St.</streetAddressLine><city>Alameda</city><state>CA</state><postalCode>94501</postalCode><country>United States of America</country></addr>
+<telecom value="tel:(202)255-9941" use="WP"></telecom>
+<assignedPerson>
+<name><prefix>Dr</prefix><given>Paige</given><family>Hurwitz</family></name></assignedPerson></assignedEntity></performer>
+<entryRelationship typeCode="SUBJ" inversionInd="true">
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.31"></templateId>
+<code xsi:type="CE" code="445518008" codeSystem="2.16.840.1.113883.6.96" displayName="Age At Onset"></code>
+<statusCode code="completed"></statusCode>
+<value xsi:type="PQ" value="69" unit="a"></value></observation></entryRelationship>
+<entryRelationship typeCode="REFR">
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.6"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.2.1" extension="99327870"></id>
+<code xsi:type="CE" code="33999-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Status"></code>
+<text><reference value="#problem99327870"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime>
+<low value="20141009070000"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<value xsi:type="CD" code="55561003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Active"></value></observation></entryRelationship></observation></entryRelationship></act></entry>
+<entry typeCode="DRIV">
+<act classCode="ACT" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.3"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3" extension="113740978"></id>
+<code xsi:type="CE" code="CONC" codeSystem="2.16.840.1.113883.5.6" displayName="Concern"></code>
+<statusCode code="active"></statusCode>
+<effectiveTime>
+<low value="20140916070000"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<entryRelationship typeCode="SUBJ">
+<observation classCode="OBS" moodCode="EVN" negationInd="false">
+<templateId root="2.16.840.1.113883.10.20.22.4.4"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.2.1" extension="99327882"></id>
+<code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Diagnosis"></code>
+<text><reference value="#problem99327882"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime>
+<low value="20140916070000"></low></effectiveTime>
+<value xsi:type="CD" code="22298006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Myocardial infarction"></value>
+<interpretationCode code="410.90" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" displayName="Myocardial infarction"></interpretationCode>
+<performer typeCode="PRF">
+<assignedEntity>
+<id root="2.16.840.1.113883.3.3388.1.1.432275.4.1.3" extension="1902894298"></id>
+<addr use="WP"><streetAddressLine>650 Townsend St.</streetAddressLine><city>Alameda</city><state>CA</state><postalCode>94501</postalCode><country>United States of America</country></addr>
+<telecom value="tel:(202)255-9941" use="WP"></telecom>
+<assignedPerson>
+<name><prefix>Dr</prefix><given>Paige</given><family>Hurwitz</family></name></assignedPerson></assignedEntity></performer>
+<entryRelationship typeCode="SUBJ" inversionInd="true">
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.31"></templateId>
+<code xsi:type="CE" code="445518008" codeSystem="2.16.840.1.113883.6.96" displayName="Age At Onset"></code>
+<statusCode code="completed"></statusCode>
+<value xsi:type="PQ" value="69" unit="a"></value></observation></entryRelationship>
+<entryRelationship typeCode="REFR">
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.6"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.2.1" extension="99327882"></id>
+<code xsi:type="CE" code="33999-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Status"></code>
+<text><reference value="#problem99327882"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime>
+<low value="20140916070000"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<value xsi:type="CD" code="55561003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Active"></value></observation></entryRelationship></observation></entryRelationship></act></entry>
+<entry typeCode="DRIV">
+<act classCode="ACT" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.3"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3" extension="113740978"></id>
+<code xsi:type="CE" code="CONC" codeSystem="2.16.840.1.113883.5.6" displayName="Concern"></code>
+<statusCode code="active"></statusCode>
+<effectiveTime>
+<low value="20080625070000"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<entryRelationship typeCode="SUBJ">
+<observation classCode="OBS" moodCode="EVN" negationInd="false">
+<templateId root="2.16.840.1.113883.10.20.22.4.4"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.2.1" extension="99327907"></id>
+<code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Diagnosis"></code>
+<text><reference value="#problem99327907"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime>
+<low value="20080625070000"></low></effectiveTime>
+<value xsi:type="CD" code="68449006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Arthritis of hip"></value>
+<interpretationCode code="716.60" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" displayName="Arthritis of hip"></interpretationCode>
+<performer typeCode="PRF">
+<assignedEntity>
+<id root="2.16.840.1.113883.3.3388.1.1.432275.4.1.3" extension="1902894298"></id>
+<addr use="WP"><streetAddressLine>650 Townsend St.</streetAddressLine><city>Alameda</city><state>CA</state><postalCode>94501</postalCode><country>United States of America</country></addr>
+<telecom value="tel:(202)255-9941" use="WP"></telecom>
+<assignedPerson>
+<name><prefix>Dr</prefix><given>Paige</given><family>Hurwitz</family></name></assignedPerson></assignedEntity></performer>
+<entryRelationship typeCode="SUBJ" inversionInd="true">
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.31"></templateId>
+<code xsi:type="CE" code="445518008" codeSystem="2.16.840.1.113883.6.96" displayName="Age At Onset"></code>
+<statusCode code="completed"></statusCode>
+<value xsi:type="PQ" value="63" unit="a"></value></observation></entryRelationship>
+<entryRelationship typeCode="REFR">
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.6"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.2.1" extension="99327907"></id>
+<code xsi:type="CE" code="33999-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Status"></code>
+<text><reference value="#problem99327907"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime>
+<low value="20080625070000"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<value xsi:type="CD" code="55561003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Active"></value></observation></entryRelationship></observation></entryRelationship></act></entry>
+<entry typeCode="DRIV">
+<act classCode="ACT" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.3"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3" extension="113740978"></id>
+<code xsi:type="CE" code="CONC" codeSystem="2.16.840.1.113883.5.6" displayName="Concern"></code>
+<statusCode code="active"></statusCode>
+<effectiveTime>
+<low value="20120205080000"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<entryRelationship typeCode="SUBJ">
+<observation classCode="OBS" moodCode="EVN" negationInd="false">
+<templateId root="2.16.840.1.113883.10.20.22.4.4"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.2.1" extension="99327936"></id>
+<code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Diagnosis"></code>
+<text><reference value="#problem99327936"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime>
+<low value="20120205080000"></low></effectiveTime>
+<value xsi:type="CD" code="23986001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Glaucoma"></value>
+<interpretationCode code="365.70" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" displayName="Glaucoma stage, unspecified"></interpretationCode>
+<performer typeCode="PRF">
+<assignedEntity>
+<id root="2.16.840.1.113883.3.3388.1.1.432275.4.1.3" extension="1902894298"></id>
+<addr use="WP"><streetAddressLine>650 Townsend St.</streetAddressLine><city>Alameda</city><state>CA</state><postalCode>94501</postalCode><country>United States of America</country></addr>
+<telecom value="tel:(202)255-9941" use="WP"></telecom>
+<assignedPerson>
+<name><prefix>Dr</prefix><given>Paige</given><family>Hurwitz</family></name></assignedPerson></assignedEntity></performer>
+<entryRelationship typeCode="SUBJ" inversionInd="true">
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.31"></templateId>
+<code xsi:type="CE" code="445518008" codeSystem="2.16.840.1.113883.6.96" displayName="Age At Onset"></code>
+<statusCode code="completed"></statusCode>
+<value xsi:type="PQ" value="67" unit="a"></value></observation></entryRelationship>
+<entryRelationship typeCode="REFR">
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.6"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.2.1" extension="99327936"></id>
+<code xsi:type="CE" code="33999-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Status"></code>
+<text><reference value="#problem99327936"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime>
+<low value="20120205080000"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<value xsi:type="CD" code="55561003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Active"></value></observation></entryRelationship></observation></entryRelationship></act></entry>
+<entry typeCode="DRIV">
+<act classCode="ACT" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.3"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3" extension="113740978"></id>
+<code xsi:type="CE" code="CONC" codeSystem="2.16.840.1.113883.5.6" displayName="Concern"></code>
+<statusCode code="completed"></statusCode>
+<effectiveTime>
+<low value="20140202080000"></low>
+<high value="20140410070000"></high></effectiveTime>
+<entryRelationship typeCode="SUBJ">
+<observation classCode="OBS" moodCode="EVN" negationInd="false">
+<templateId root="2.16.840.1.113883.10.20.22.4.4"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.2.1" extension="99328604"></id>
+<code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Diagnosis"></code>
+<text><reference value="#problem99328604"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime>
+<low value="20140202080000"></low>
+<high value="20140410070000"></high></effectiveTime>
+<value xsi:type="CD" code="4740000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Herpes zoster"></value>
+<interpretationCode code="053.9" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" displayName="Herpes zoster"></interpretationCode>
+<performer typeCode="PRF">
+<assignedEntity>
+<id root="2.16.840.1.113883.3.3388.1.1.432275.4.1.3" extension="1902894298"></id>
+<addr use="WP"><streetAddressLine>650 Townsend St.</streetAddressLine><city>Alameda</city><state>CA</state><postalCode>94501</postalCode><country>United States of America</country></addr>
+<telecom value="tel:(202)255-9941" use="WP"></telecom>
+<assignedPerson>
+<name><prefix>Dr</prefix><given>Paige</given><family>Hurwitz</family></name></assignedPerson></assignedEntity></performer>
+<entryRelationship typeCode="SUBJ" inversionInd="true">
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.31"></templateId>
+<code xsi:type="CE" code="445518008" codeSystem="2.16.840.1.113883.6.96" displayName="Age At Onset"></code>
+<statusCode code="completed"></statusCode>
+<value xsi:type="PQ" value="69" unit="a"></value></observation></entryRelationship>
+<entryRelationship typeCode="REFR">
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.6"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.2.1" extension="99328604"></id>
+<code xsi:type="CE" code="33999-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Status"></code>
+<text><reference value="#problem99328604"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime>
+<low value="20140202080000"></low>
+<high value="20140202080000"></high></effectiveTime>
+<value xsi:type="CD" code="55561003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Completed"></value></observation></entryRelationship></observation></entryRelationship></act></entry>
+<entry typeCode="DRIV">
+<act classCode="ACT" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.3"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3" extension="113740978"></id>
+<code xsi:type="CE" code="CONC" codeSystem="2.16.840.1.113883.5.6" displayName="Concern"></code>
+<statusCode code="active"></statusCode>
+<effectiveTime>
+<low nullFlavor="NI"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<entryRelationship typeCode="SUBJ">
+<observation classCode="OBS" moodCode="EVN" negationInd="false">
+<templateId root="2.16.840.1.113883.10.20.22.4.4"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.2.1" extension="100304664"></id>
+<code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Diagnosis"></code>
+<text><reference value="#problem100304664"></reference></text>
+<statusCode code="completed"></statusCode>
+<value xsi:type="CD" code="279039007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Low back pain"></value>
+<interpretationCode code="724.2" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" displayName="Low back pain"></interpretationCode>
+<performer typeCode="PRF">
+<assignedEntity>
+<id root="2.16.840.1.113883.3.3388.1.1.432275.4.1.3" extension="1248163267"></id>
+<addr use="WP"><streetAddressLine>650 Townsend St.</streetAddressLine><city>Alameda</city><state>CA</state><postalCode>94501</postalCode><country>United States of America</country></addr>
+<telecom value="tel:(202)255-9941" use="WP"></telecom>
+<assignedPerson>
+<name><prefix>Dr</prefix><given>Andrew</given><family>Paull</family><suffix>MD</suffix></name></assignedPerson></assignedEntity></performer>
+<entryRelationship typeCode="SUBJ" inversionInd="true">
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.31"></templateId>
+<code xsi:type="CE" code="445518008" codeSystem="2.16.840.1.113883.6.96" displayName="Age At Onset"></code>
+<statusCode code="completed"></statusCode>
+<value xsi:type="PQ" value="70" unit="a"></value></observation></entryRelationship>
+<entryRelationship typeCode="REFR">
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.6"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.2.1" extension="100304664"></id>
+<code xsi:type="CE" code="33999-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Status"></code>
+<text><reference value="#problem100304664"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime>
+<low nullFlavor="NI"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<value xsi:type="CD" code="55561003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Active"></value></observation></entryRelationship></observation></entryRelationship></act></entry>
+<entry typeCode="DRIV">
+<act classCode="ACT" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.3"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3" extension="113740978"></id>
+<code xsi:type="CE" code="CONC" codeSystem="2.16.840.1.113883.5.6" displayName="Concern"></code>
+<statusCode code="active"></statusCode>
+<effectiveTime>
+<low nullFlavor="NI"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<entryRelationship typeCode="SUBJ">
+<observation classCode="OBS" moodCode="EVN" negationInd="false">
+<templateId root="2.16.840.1.113883.10.20.22.4.4"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.2.1" extension="100319939"></id>
+<code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Diagnosis"></code>
+<text><reference value="#problem100319939"></reference></text>
+<statusCode code="completed"></statusCode>
+<value xsi:type="CD" code="73211009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Diabetes mellitus"></value>
+<interpretationCode code="250.00" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" displayName="Diabetes mellitus"></interpretationCode>
+<performer typeCode="PRF">
+<assignedEntity>
+<id root="2.16.840.1.113883.3.3388.1.1.432275.4.1.3" extension="1248163267"></id>
+<addr use="WP"><streetAddressLine>650 Townsend St.</streetAddressLine><city>Alameda</city><state>CA</state><postalCode>94501</postalCode><country>United States of America</country></addr>
+<telecom value="tel:(202)255-9941" use="WP"></telecom>
+<assignedPerson>
+<name><prefix>Dr</prefix><given>Andrew</given><family>Paull</family><suffix>MD</suffix></name></assignedPerson></assignedEntity></performer>
+<entryRelationship typeCode="SUBJ" inversionInd="true">
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.31"></templateId>
+<code xsi:type="CE" code="445518008" codeSystem="2.16.840.1.113883.6.96" displayName="Age At Onset"></code>
+<statusCode code="completed"></statusCode>
+<value xsi:type="PQ" value="71" unit="a"></value></observation></entryRelationship>
+<entryRelationship typeCode="REFR">
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.6"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.2.1" extension="100319939"></id>
+<code xsi:type="CE" code="33999-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Status"></code>
+<text><reference value="#problem100319939"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime>
+<low nullFlavor="NI"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<value xsi:type="CD" code="55561003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Active"></value></observation></entryRelationship></observation></entryRelationship></act></entry>
+<entry typeCode="DRIV">
+<act classCode="ACT" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.3"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3" extension="113740978"></id>
+<code xsi:type="CE" code="CONC" codeSystem="2.16.840.1.113883.5.6" displayName="Concern"></code>
+<statusCode code="active"></statusCode>
+<effectiveTime>
+<low nullFlavor="NI"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<entryRelationship typeCode="SUBJ">
+<observation classCode="OBS" moodCode="EVN" negationInd="false">
+<templateId root="2.16.840.1.113883.10.20.22.4.4"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.2.1" extension="100390472"></id>
+<code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Diagnosis"></code>
+<text><reference value="#problem100390472"></reference></text>
+<statusCode code="completed"></statusCode>
+<value xsi:type="CD" code="39823006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Generalized atherosclerosis"></value>
+<interpretationCode code="440.9" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" displayName="Atherosclerosis of artery"></interpretationCode>
+<performer typeCode="PRF">
+<assignedEntity>
+<id root="2.16.840.1.113883.3.3388.1.1.432275.4.1.3" extension="4040217984"></id>
+<addr use="WP"><streetAddressLine>650 Townsend St.</streetAddressLine><city>Alameda</city><state>CA</state><postalCode>94501</postalCode><country>United States of America</country></addr>
+<telecom value="tel:(202)255-9941" use="WP"></telecom>
+<assignedPerson>
+<name><prefix>Dr</prefix><given>Jillian</given><family>Jones</family><suffix>MD</suffix></name></assignedPerson></assignedEntity></performer>
+<entryRelationship typeCode="SUBJ" inversionInd="true">
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.31"></templateId>
+<code xsi:type="CE" code="445518008" codeSystem="2.16.840.1.113883.6.96" displayName="Age At Onset"></code>
+<statusCode code="completed"></statusCode>
+<value xsi:type="PQ" value="70" unit="a"></value></observation></entryRelationship>
+<entryRelationship typeCode="REFR">
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.6"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.2.1" extension="100390472"></id>
+<code xsi:type="CE" code="33999-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Status"></code>
+<text><reference value="#problem100390472"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime>
+<low nullFlavor="NI"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<value xsi:type="CD" code="55561003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Active"></value></observation></entryRelationship></observation></entryRelationship></act></entry>
+<entry typeCode="DRIV">
+<act classCode="ACT" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.3"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3" extension="113740978"></id>
+<code xsi:type="CE" code="CONC" codeSystem="2.16.840.1.113883.5.6" displayName="Concern"></code>
+<statusCode code="active"></statusCode>
+<effectiveTime>
+<low nullFlavor="NI"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<entryRelationship typeCode="SUBJ">
+<observation classCode="OBS" moodCode="EVN" negationInd="false">
+<templateId root="2.16.840.1.113883.10.20.22.4.4"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.2.1" extension="100415794"></id>
+<code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Diagnosis"></code>
+<text><reference value="#problem100415794"></reference></text>
+<statusCode code="completed"></statusCode>
+<value xsi:type="CD" code="91487003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Diaper rash"></value>
+<interpretationCode code="691.0" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" displayName="Diaper rash"></interpretationCode>
+<performer typeCode="PRF">
+<assignedEntity>
+<id root="2.16.840.1.113883.3.3388.1.1.432275.4.1.3" extension="4040217984"></id>
+<addr use="WP"><streetAddressLine>650 Townsend St.</streetAddressLine><city>Alameda</city><state>CA</state><postalCode>94501</postalCode><country>United States of America</country></addr>
+<telecom value="tel:(202)255-9941" use="WP"></telecom>
+<assignedPerson>
+<name><prefix>Dr</prefix><given>Jillian</given><family>Jones</family><suffix>MD</suffix></name></assignedPerson></assignedEntity></performer>
+<entryRelationship typeCode="SUBJ" inversionInd="true">
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.31"></templateId>
+<code xsi:type="CE" code="445518008" codeSystem="2.16.840.1.113883.6.96" displayName="Age At Onset"></code>
+<statusCode code="completed"></statusCode>
+<value xsi:type="PQ" value="70" unit="a"></value></observation></entryRelationship>
+<entryRelationship typeCode="REFR">
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.6"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.2.1" extension="100415794"></id>
+<code xsi:type="CE" code="33999-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Status"></code>
+<text><reference value="#problem100415794"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime>
+<low nullFlavor="NI"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<value xsi:type="CD" code="55561003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Active"></value></observation></entryRelationship></observation></entryRelationship></act></entry>
+<entry typeCode="DRIV">
+<act classCode="ACT" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.3"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3" extension="113740978"></id>
+<code xsi:type="CE" code="CONC" codeSystem="2.16.840.1.113883.5.6" displayName="Concern"></code>
+<statusCode code="completed"></statusCode>
+<effectiveTime>
+<low value="20150501070000"></low>
+<high value="20150528070000"></high></effectiveTime>
+<entryRelationship typeCode="SUBJ">
+<observation classCode="OBS" moodCode="EVN" negationInd="false">
+<templateId root="2.16.840.1.113883.10.20.22.4.4"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.2.1" extension="102174279"></id>
+<code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Diagnosis"></code>
+<text><reference value="#problem102174279"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime>
+<low value="20150501070000"></low>
+<high value="20150528070000"></high></effectiveTime>
+<value xsi:type="CD" code="74627003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Diabetic complication"></value>
+<interpretationCode code="250.90" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" displayName="Diabetic complication"></interpretationCode>
+<performer typeCode="PRF">
+<assignedEntity>
+<id root="2.16.840.1.113883.3.3388.1.1.432275.4.1.3" extension="1467540500"></id>
+<addr use="WP"><streetAddressLine>650 Townsend St.</streetAddressLine><city>Alameda</city><state>CA</state><postalCode>94501</postalCode><country>United States of America</country></addr>
+<telecom value="tel:(202)255-9941" use="WP"></telecom>
+<assignedPerson>
+<name><prefix>Dr</prefix><given>Alan</given><family>Weber</family><suffix>MD</suffix></name></assignedPerson></assignedEntity></performer>
+<entryRelationship typeCode="SUBJ" inversionInd="true">
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.31"></templateId>
+<code xsi:type="CE" code="445518008" codeSystem="2.16.840.1.113883.6.96" displayName="Age At Onset"></code>
+<statusCode code="completed"></statusCode>
+<value xsi:type="PQ" value="70" unit="a"></value></observation></entryRelationship>
+<entryRelationship typeCode="REFR">
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.6"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.2.1" extension="102174279"></id>
+<code xsi:type="CE" code="33999-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Status"></code>
+<text><reference value="#problem102174279"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime>
+<low value="20150501070000"></low>
+<high value="20150501070000"></high></effectiveTime>
+<value xsi:type="CD" code="55561003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Completed"></value></observation></entryRelationship></observation></entryRelationship></act></entry>
+<entry typeCode="DRIV">
+<act classCode="ACT" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.3"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3" extension="113740978"></id>
+<code xsi:type="CE" code="CONC" codeSystem="2.16.840.1.113883.5.6" displayName="Concern"></code>
+<statusCode code="active"></statusCode>
+<effectiveTime>
+<low value="20150605070000"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<entryRelationship typeCode="SUBJ">
+<observation classCode="OBS" moodCode="EVN" negationInd="false">
+<templateId root="2.16.840.1.113883.10.20.22.4.4"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.2.1" extension="105805926"></id>
+<code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Diagnosis"></code>
+<text><reference value="#problem105805926"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime>
+<low value="20150605070000"></low></effectiveTime>
+<value xsi:type="CD" code="71620000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Fracture of femur"></value>
+<interpretationCode code="821.00" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" displayName="Fracture of femur"></interpretationCode>
+<performer typeCode="PRF">
+<assignedEntity>
+<id root="2.16.840.1.113883.3.3388.1.1.432275.4.1.3" extension="1456987456"></id>
+<addr use="WP"><streetAddressLine>650 Townsend St.</streetAddressLine><city>Alameda</city><state>CA</state><postalCode>94501</postalCode><country>United States of America</country></addr>
+<telecom value="tel:(202)255-9941" use="WP"></telecom>
+<assignedPerson>
+<name><prefix>Dr</prefix><given>Mike</given><family>Tse</family><suffix>MD</suffix></name></assignedPerson></assignedEntity></performer>
+<entryRelationship typeCode="SUBJ" inversionInd="true">
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.31"></templateId>
+<code xsi:type="CE" code="445518008" codeSystem="2.16.840.1.113883.6.96" displayName="Age At Onset"></code>
+<statusCode code="completed"></statusCode>
+<value xsi:type="PQ" value="70" unit="a"></value></observation></entryRelationship>
+<entryRelationship typeCode="REFR">
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.6"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.2.1" extension="105805926"></id>
+<code xsi:type="CE" code="33999-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Status"></code>
+<text><reference value="#problem105805926"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime>
+<low value="20150605070000"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<value xsi:type="CD" code="55561003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Active"></value></observation></entryRelationship></observation></entryRelationship></act></entry>
+<entry typeCode="DRIV">
+<act classCode="ACT" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.3"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3" extension="113740978"></id>
+<code xsi:type="CE" code="CONC" codeSystem="2.16.840.1.113883.5.6" displayName="Concern"></code>
+<statusCode code="active"></statusCode>
+<effectiveTime>
+<low value="20150605070000"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<entryRelationship typeCode="SUBJ">
+<observation classCode="OBS" moodCode="EVN" negationInd="false">
+<templateId root="2.16.840.1.113883.10.20.22.4.4"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.2.1" extension="105806071"></id>
+<code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Diagnosis"></code>
+<text><reference value="#problem105806071"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime>
+<low value="20150605070000"></low></effectiveTime>
+<value xsi:type="CD" code="359817006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Closed fracture of hip"></value>
+<interpretationCode code="820.8" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" displayName="Closed fracture of hip"></interpretationCode>
+<performer typeCode="PRF">
+<assignedEntity>
+<id root="2.16.840.1.113883.3.3388.1.1.432275.4.1.3" extension="1456987456"></id>
+<addr use="WP"><streetAddressLine>650 Townsend St.</streetAddressLine><city>Alameda</city><state>CA</state><postalCode>94501</postalCode><country>United States of America</country></addr>
+<telecom value="tel:(202)255-9941" use="WP"></telecom>
+<assignedPerson>
+<name><prefix>Dr</prefix><given>Mike</given><family>Tse</family><suffix>MD</suffix></name></assignedPerson></assignedEntity></performer>
+<entryRelationship typeCode="SUBJ" inversionInd="true">
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.31"></templateId>
+<code xsi:type="CE" code="445518008" codeSystem="2.16.840.1.113883.6.96" displayName="Age At Onset"></code>
+<statusCode code="completed"></statusCode>
+<value xsi:type="PQ" value="70" unit="a"></value></observation></entryRelationship>
+<entryRelationship typeCode="REFR">
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.6"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.2.1" extension="105806071"></id>
+<code xsi:type="CE" code="33999-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Status"></code>
+<text><reference value="#problem105806071"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime>
+<low value="20150605070000"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<value xsi:type="CD" code="55561003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Active"></value></observation></entryRelationship></observation></entryRelationship></act></entry>
+<entry typeCode="DRIV">
+<act classCode="ACT" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.3"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3" extension="113740978"></id>
+<code xsi:type="CE" code="CONC" codeSystem="2.16.840.1.113883.5.6" displayName="Concern"></code>
+<statusCode code="active"></statusCode>
+<effectiveTime>
+<low value="20151214000000"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<entryRelationship typeCode="SUBJ">
+<observation classCode="OBS" moodCode="EVN" negationInd="false">
+<templateId root="2.16.840.1.113883.10.20.22.4.4"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.2.1" extension="129756981"></id>
+<code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Diagnosis"></code>
+<text><reference value="#problem129756981"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime>
+<low value="20151214000000"></low></effectiveTime>
+<value xsi:type="CD" code="6142004" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Influenza"></value>
+<interpretationCode code="487.1" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" displayName="Influenza"></interpretationCode>
+<performer typeCode="PRF">
+<assignedEntity>
+<id root="2.16.840.1.113883.3.3388.1.1.432275.4.1.3" extension="1467540500"></id>
+<addr use="WP"><streetAddressLine>650 Townsend St.</streetAddressLine><city>Alameda</city><state>CA</state><postalCode>94501</postalCode><country>United States of America</country></addr>
+<telecom value="tel:(202)255-9941" use="WP"></telecom>
+<assignedPerson>
+<name><prefix>Dr</prefix><given>Alan</given><family>Weber</family><suffix>MD</suffix></name></assignedPerson></assignedEntity></performer>
+<entryRelationship typeCode="SUBJ" inversionInd="true">
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.31"></templateId>
+<code xsi:type="CE" code="445518008" codeSystem="2.16.840.1.113883.6.96" displayName="Age At Onset"></code>
+<statusCode code="completed"></statusCode>
+<value xsi:type="PQ" value="70" unit="a"></value></observation></entryRelationship>
+<entryRelationship typeCode="REFR">
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.6"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.2.1" extension="129756981"></id>
+<code xsi:type="CE" code="33999-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Status"></code>
+<text><reference value="#problem129756981"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime>
+<low value="20151214000000"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<value xsi:type="CD" code="55561003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Active"></value></observation></entryRelationship></observation></entryRelationship></act></entry>
+<entry typeCode="DRIV">
+<act classCode="ACT" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.3"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3" extension="113740978"></id>
+<code xsi:type="CE" code="CONC" codeSystem="2.16.840.1.113883.5.6" displayName="Concern"></code>
+<statusCode code="active"></statusCode>
+<effectiveTime>
+<low nullFlavor="NI"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<entryRelationship typeCode="SUBJ">
+<observation classCode="OBS" moodCode="EVN" negationInd="false">
+<templateId root="2.16.840.1.113883.10.20.22.4.4"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.2.1" extension="139331517"></id>
+<code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Diagnosis"></code>
+<text><reference value="#problem139331517"></reference></text>
+<statusCode code="completed"></statusCode>
+<value xsi:type="CD" code="87414006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Reactive depression (situational)"></value>
+<interpretationCode code="309.0" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" displayName="Situational depression"></interpretationCode>
+<performer typeCode="PRF">
+<assignedEntity>
+<id root="2.16.840.1.113883.3.3388.1.1.432275.4.1.3" extension="1183145"></id>
+<addr use="WP"><streetAddressLine>650 Townsend St.</streetAddressLine><city>Alameda</city><state>CA</state><postalCode>94501</postalCode><country>United States of America</country></addr>
+<telecom value="tel:(202)255-9941" use="WP"></telecom>
+<assignedPerson>
+<name><given>Marie</given><family>Omar</family><suffix>MD</suffix></name></assignedPerson></assignedEntity></performer>
+<entryRelationship typeCode="SUBJ" inversionInd="true">
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.31"></templateId>
+<code xsi:type="CE" code="445518008" codeSystem="2.16.840.1.113883.6.96" displayName="Age At Onset"></code>
+<statusCode code="completed"></statusCode>
+<value xsi:type="PQ" value="71" unit="a"></value></observation></entryRelationship>
+<entryRelationship typeCode="REFR">
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.6"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.2.1" extension="139331517"></id>
+<code xsi:type="CE" code="33999-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Status"></code>
+<text><reference value="#problem139331517"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime>
+<low nullFlavor="NI"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<value xsi:type="CD" code="55561003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Active"></value></observation></entryRelationship></observation></entryRelationship></act></entry>
+<entry typeCode="DRIV">
+<act classCode="ACT" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.3"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3" extension="113740978"></id>
+<code xsi:type="CE" code="CONC" codeSystem="2.16.840.1.113883.5.6" displayName="Concern"></code>
+<statusCode code="active"></statusCode>
+<effectiveTime>
+<low nullFlavor="NI"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<entryRelationship typeCode="SUBJ">
+<observation classCode="OBS" moodCode="EVN" negationInd="false">
+<templateId root="2.16.840.1.113883.10.20.22.4.4"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.2.1" extension="139341154"></id>
+<code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Diagnosis"></code>
+<text><reference value="#problem139341154"></reference></text>
+<statusCode code="completed"></statusCode>
+<value xsi:type="CD" code="48694002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Anxiety"></value>
+<interpretationCode code="300.00" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" displayName="Anxiety"></interpretationCode>
+<performer typeCode="PRF">
+<assignedEntity>
+<id root="2.16.840.1.113883.3.3388.1.1.432275.4.1.3" extension="1158744"></id>
+<addr use="WP"><streetAddressLine>650 Townsend St.</streetAddressLine><city>Alameda</city><state>CA</state><postalCode>94501</postalCode><country>United States of America</country></addr>
+<telecom value="tel:(202)255-9941" use="WP"></telecom>
+<assignedPerson>
+<name><given>Michael </given><family>Wilson</family><suffix>MD</suffix></name></assignedPerson></assignedEntity></performer>
+<entryRelationship typeCode="SUBJ" inversionInd="true">
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.31"></templateId>
+<code xsi:type="CE" code="445518008" codeSystem="2.16.840.1.113883.6.96" displayName="Age At Onset"></code>
+<statusCode code="completed"></statusCode>
+<value xsi:type="PQ" value="71" unit="a"></value></observation></entryRelationship>
+<entryRelationship typeCode="REFR">
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.6"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.2.1" extension="139341154"></id>
+<code xsi:type="CE" code="33999-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Status"></code>
+<text><reference value="#problem139341154"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime>
+<low nullFlavor="NI"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<value xsi:type="CD" code="55561003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Active"></value></observation></entryRelationship></observation></entryRelationship></act></entry>
+<entry typeCode="DRIV">
+<act classCode="ACT" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.3"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3" extension="113740978"></id>
+<code xsi:type="CE" code="CONC" codeSystem="2.16.840.1.113883.5.6" displayName="Concern"></code>
+<statusCode code="active"></statusCode>
+<effectiveTime>
+<low value="20160229000000"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<entryRelationship typeCode="SUBJ">
+<observation classCode="OBS" moodCode="EVN" negationInd="false">
+<templateId root="2.16.840.1.113883.10.20.22.4.4"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.2.1" extension="139790840"></id>
+<code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Diagnosis"></code>
+<text><reference value="#problem139790840"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime>
+<low value="20160229000000"></low></effectiveTime>
+<value xsi:type="CD" code="25064002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Headache"></value>
+<interpretationCode code="784.0" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" displayName="Headache"></interpretationCode>
+<performer typeCode="PRF">
+<assignedEntity>
+<id root="2.16.840.1.113883.3.3388.1.1.432275.4.1.3" extension="1191963"></id>
+<addr use="WP"><streetAddressLine>650 Townsend St.</streetAddressLine><city>Alameda</city><state>CA</state><postalCode>94501</postalCode><country>United States of America</country></addr>
+<telecom value="tel:(202)255-9941" use="WP"></telecom>
+<assignedPerson>
+<name><given>Tara</given><family>Voeltz</family><suffix>MD</suffix></name></assignedPerson></assignedEntity></performer>
+<entryRelationship typeCode="SUBJ" inversionInd="true">
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.31"></templateId>
+<code xsi:type="CE" code="445518008" codeSystem="2.16.840.1.113883.6.96" displayName="Age At Onset"></code>
+<statusCode code="completed"></statusCode>
+<value xsi:type="PQ" value="71" unit="a"></value></observation></entryRelationship>
+<entryRelationship typeCode="REFR">
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.6"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.2.1" extension="139790840"></id>
+<code xsi:type="CE" code="33999-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Status"></code>
+<text><reference value="#problem139790840"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime>
+<low value="20160229000000"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<value xsi:type="CD" code="55561003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Active"></value></observation></entryRelationship></observation></entryRelationship></act></entry>
+<entry typeCode="DRIV">
+<act classCode="ACT" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.3"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3" extension="113740978"></id>
+<code xsi:type="CE" code="CONC" codeSystem="2.16.840.1.113883.5.6" displayName="Concern"></code>
+<statusCode code="active"></statusCode>
+<effectiveTime>
+<low nullFlavor="NI"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<entryRelationship typeCode="SUBJ">
+<observation classCode="OBS" moodCode="EVN" negationInd="false">
+<templateId root="2.16.840.1.113883.10.20.22.4.4"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.2.1" extension="140009220"></id>
+<code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Diagnosis"></code>
+<text><reference value="#problem140009220"></reference></text>
+<statusCode code="completed"></statusCode>
+<value xsi:type="CD" code="25064002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Headache"></value>
+<interpretationCode code="784.0" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" displayName="Headache"></interpretationCode>
+<performer typeCode="PRF">
+<assignedEntity>
+<id root="2.16.840.1.113883.3.3388.1.1.432275.4.1.3" extension="1193003"></id>
+<addr use="WP"><streetAddressLine>650 Townsend St.</streetAddressLine><city>Alameda</city><state>CA</state><postalCode>94501</postalCode><country>United States of America</country></addr>
+<telecom value="tel:(202)255-9941" use="WP"></telecom>
+<assignedPerson>
+<name><given>Practice</given><family>Fusion</family><suffix>MD</suffix></name></assignedPerson></assignedEntity></performer>
+<entryRelationship typeCode="SUBJ" inversionInd="true">
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.31"></templateId>
+<code xsi:type="CE" code="445518008" codeSystem="2.16.840.1.113883.6.96" displayName="Age At Onset"></code>
+<statusCode code="completed"></statusCode>
+<value xsi:type="PQ" value="71" unit="a"></value></observation></entryRelationship>
+<entryRelationship typeCode="REFR">
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.6"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.2.1" extension="140009220"></id>
+<code xsi:type="CE" code="33999-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Status"></code>
+<text><reference value="#problem140009220"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime>
+<low nullFlavor="NI"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<value xsi:type="CD" code="55561003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Active"></value></observation></entryRelationship></observation></entryRelationship></act></entry>
+<entry typeCode="DRIV">
+<act classCode="ACT" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.3"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3" extension="113740978"></id>
+<code xsi:type="CE" code="CONC" codeSystem="2.16.840.1.113883.5.6" displayName="Concern"></code>
+<statusCode code="active"></statusCode>
+<effectiveTime>
+<low value="20160302000000"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<entryRelationship typeCode="SUBJ">
+<observation classCode="OBS" moodCode="EVN" negationInd="false">
+<templateId root="2.16.840.1.113883.10.20.22.4.4"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.2.1" extension="140167842"></id>
+<code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Diagnosis"></code>
+<text><reference value="#problem140167842"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime>
+<low value="20160302000000"></low></effectiveTime>
+<value xsi:type="CD" code="43878008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Streptococcal sore throat"></value>
+<interpretationCode code="034.0" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" displayName="Strep throat"></interpretationCode>
+<performer typeCode="PRF">
+<assignedEntity>
+<id root="2.16.840.1.113883.3.3388.1.1.432275.4.1.3" extension="1158744"></id>
+<addr use="WP"><streetAddressLine>650 Townsend St.</streetAddressLine><city>Alameda</city><state>CA</state><postalCode>94501</postalCode><country>United States of America</country></addr>
+<telecom value="tel:(202)255-9941" use="WP"></telecom>
+<assignedPerson>
+<name><given>Michael </given><family>Wilson</family><suffix>MD</suffix></name></assignedPerson></assignedEntity></performer>
+<entryRelationship typeCode="SUBJ" inversionInd="true">
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.31"></templateId>
+<code xsi:type="CE" code="445518008" codeSystem="2.16.840.1.113883.6.96" displayName="Age At Onset"></code>
+<statusCode code="completed"></statusCode>
+<value xsi:type="PQ" value="71" unit="a"></value></observation></entryRelationship>
+<entryRelationship typeCode="REFR">
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.6"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.2.1" extension="140167842"></id>
+<code xsi:type="CE" code="33999-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Status"></code>
+<text><reference value="#problem140167842"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime>
+<low value="20160302000000"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<value xsi:type="CD" code="55561003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Active"></value></observation></entryRelationship></observation></entryRelationship></act></entry>
+<entry typeCode="DRIV">
+<act classCode="ACT" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.3"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3" extension="113740978"></id>
+<code xsi:type="CE" code="CONC" codeSystem="2.16.840.1.113883.5.6" displayName="Concern"></code>
+<statusCode code="active"></statusCode>
+<effectiveTime>
+<low value="20160302000000"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<entryRelationship typeCode="SUBJ">
+<observation classCode="OBS" moodCode="EVN" negationInd="false">
+<templateId root="2.16.840.1.113883.10.20.22.4.4"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.2.1" extension="140246946"></id>
+<code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Diagnosis"></code>
+<text><reference value="#problem140246946"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime>
+<low value="20160302000000"></low></effectiveTime>
+<value xsi:type="CD" code="46635009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Type 1 diabetes mellitus"></value>
+<interpretationCode code="250.01" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" displayName="Type I diabetes"></interpretationCode>
+<performer typeCode="PRF">
+<assignedEntity>
+<id root="2.16.840.1.113883.3.3388.1.1.432275.4.1.3" extension="1248163267"></id>
+<addr use="WP"><streetAddressLine>650 Townsend St.</streetAddressLine><city>Alameda</city><state>CA</state><postalCode>94501</postalCode><country>United States of America</country></addr>
+<telecom value="tel:(202)255-9941" use="WP"></telecom>
+<assignedPerson>
+<name><prefix>Dr</prefix><given>Andrew</given><family>Paull</family><suffix>MD</suffix></name></assignedPerson></assignedEntity></performer>
+<entryRelationship typeCode="SUBJ" inversionInd="true">
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.31"></templateId>
+<code xsi:type="CE" code="445518008" codeSystem="2.16.840.1.113883.6.96" displayName="Age At Onset"></code>
+<statusCode code="completed"></statusCode>
+<value xsi:type="PQ" value="71" unit="a"></value></observation></entryRelationship>
+<entryRelationship typeCode="REFR">
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.6"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.2.1" extension="140246946"></id>
+<code xsi:type="CE" code="33999-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Status"></code>
+<text><reference value="#problem140246946"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime>
+<low value="20160302000000"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<value xsi:type="CD" code="55561003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Active"></value></observation></entryRelationship></observation></entryRelationship></act></entry>
+<entry typeCode="DRIV">
+<act classCode="ACT" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.3"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3" extension="113740978"></id>
+<code xsi:type="CE" code="CONC" codeSystem="2.16.840.1.113883.5.6" displayName="Concern"></code>
+<statusCode code="active"></statusCode>
+<effectiveTime>
+<low value="20160303000000"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<entryRelationship typeCode="SUBJ">
+<observation classCode="OBS" moodCode="EVN" negationInd="false">
+<templateId root="2.16.840.1.113883.10.20.22.4.4"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.2.1" extension="140365070"></id>
+<code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Diagnosis"></code>
+<text><reference value="#problem140365070"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime>
+<low value="20160303000000"></low></effectiveTime>
+<value xsi:type="CD" code="43878008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Streptococcal sore throat"></value>
+<interpretationCode code="034.0" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" displayName="Strep throat"></interpretationCode>
+<performer typeCode="PRF">
+<assignedEntity>
+<id root="2.16.840.1.113883.3.3388.1.1.432275.4.1.3" extension="1191963"></id>
+<addr use="WP"><streetAddressLine>650 Townsend St.</streetAddressLine><city>Alameda</city><state>CA</state><postalCode>94501</postalCode><country>United States of America</country></addr>
+<telecom value="tel:(202)255-9941" use="WP"></telecom>
+<assignedPerson>
+<name><given>Tara</given><family>Voeltz</family><suffix>MD</suffix></name></assignedPerson></assignedEntity></performer>
+<entryRelationship typeCode="SUBJ" inversionInd="true">
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.31"></templateId>
+<code xsi:type="CE" code="445518008" codeSystem="2.16.840.1.113883.6.96" displayName="Age At Onset"></code>
+<statusCode code="completed"></statusCode>
+<value xsi:type="PQ" value="71" unit="a"></value></observation></entryRelationship>
+<entryRelationship typeCode="REFR">
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.6"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.2.1" extension="140365070"></id>
+<code xsi:type="CE" code="33999-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Status"></code>
+<text><reference value="#problem140365070"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime>
+<low value="20160303000000"></low>
+<high nullFlavor="NI"></high></effectiveTime>
+<value xsi:type="CD" code="55561003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Active"></value></observation></entryRelationship></observation></entryRelationship></act></entry></section></component>
+<component>
+<section>
+<templateId root="2.16.840.1.113883.10.20.22.2.7.1"></templateId>
+<code code="47519-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Procedures"></code>
+<title>Procedures</title>
+<text><table width="95%" border="1">
+<thead>
+<tr>
+<th>Procedure</th>
+<th>Date</th></tr></thead>
+<tbody>
+<tr>
+<td>No Procedures Indicated</td>
+<td>Not Applicable</td></tr></tbody></table></text>
+<entry typeCode="DRIV">
+<procedure classCode="PROC" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.14"></templateId>
+<id root="2.16.840.1.113883.3.3388.1.1.1.432275.3.113740978.1.9"></id>
+<code xsi:type="CE" nullFlavor="NI"></code>
+<statusCode code="completed"></statusCode>
+<effectiveTime nullFlavor="NI"></effectiveTime>
+<priorityCode nullFlavor="NI"></priorityCode>
+<methodCode nullFlavor="NI"></methodCode>
+<targetSiteCode nullFlavor="NI"></targetSiteCode></procedure></entry></section></component>
+<component>
+<section>
+<templateId root="2.16.840.1.113883.10.20.22.2.3.1"></templateId>
+<code code="30954-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Results"></code>
+<title>Results</title>
+<text><table width="95%" border="1">
+<thead>
+<tr>
+<th>Test Name</th>
+<th>Value</th>
+<th>Date</th></tr></thead>
+<tbody>
+<tr ID="Lab_Result_1">
+<td>Erythrocytes [#/volume] in Blood</td>
+<td>4.41 10*6/uL</td>
+<td>2014-08-04</td></tr>
+<tr ID="Lab_Result_2">
+<td>Hemoglobin [Mass/volume] in Blood</td>
+<td>12.5 g/mL</td>
+<td>2014-08-04</td></tr>
+<tr ID="Lab_Result_3">
+<td>Hematocrit [Volume Fraction] of Blood</td>
+<td>41 %</td>
+<td>2014-08-04</td></tr>
+<tr ID="Lab_Result_4">
+<td>Leukocytes [#/volume] in Blood</td>
+<td>105600 {cells}/uL</td>
+<td>2014-08-04</td></tr>
+<tr ID="Lab_Result_5">
+<td>Platelets [#/volume] in Blood</td>
+<td>210000 {cells}/uL</td>
+<td>2014-08-04</td></tr>
+<tr ID="Lab_Result_6">
+<td>Erythrocyte mean corpuscular volume [Entitic volume]</td>
+<td>91 fL</td>
+<td>2014-08-04</td></tr>
+<tr ID="Lab_Result_7">
+<td>Erythrocyte mean corpuscular hemoglobin [Entitic mass]</td>
+<td>29 pg/{cell}</td>
+<td>2014-08-04</td></tr>
+<tr ID="Lab_Result_8">
+<td>Erythrocyte mean corpuscular hemoglobin concentration [Mass/volume]</td>
+<td>32.4 g/dL</td>
+<td>2014-08-04</td></tr>
+<tr ID="Lab_Result_9">
+<td>Erythrocyte distribution width [Ratio]</td>
+<td>10.5 %</td>
+<td>2014-08-04</td></tr>
+<tr ID="Lab_Result_10">
+<td>Basophils [#/volume] in Blood</td>
+<td>0.1 10*3/uL</td>
+<td>2014-08-04</td></tr>
+<tr ID="Lab_Result_11">
+<td>Basophils/100 leukocytes in Blood</td>
+<td>0.1 %</td>
+<td>2014-08-04</td></tr>
+<tr ID="Lab_Result_12">
+<td>Monocytes [#/volume] in Blood</td>
+<td>3 10*3/uL</td>
+<td>2014-08-04</td></tr>
+<tr ID="Lab_Result_13">
+<td>Monocytes/100 leukocytes in Blood</td>
+<td>3 %</td>
+<td>2014-08-04</td></tr>
+<tr ID="Lab_Result_14">
+<td>Eosinophils [#/volume] in Blood</td>
+<td>2.1 10*3/uL</td>
+<td>2014-08-04</td></tr>
+<tr ID="Lab_Result_15">
+<td>Eosinophils/100 leukocytes in Blood</td>
+<td>2 %</td>
+<td>2014-08-04</td></tr>
+<tr ID="Lab_Result_16">
+<td>Lymphocytes [#/volume] in Blood</td>
+<td>41.2 10*3/uL</td>
+<td>2014-08-04</td></tr>
+<tr ID="Lab_Result_17">
+<td>Lymphocytes/100 leukocytes in Blood</td>
+<td>39 %</td>
+<td>2014-08-04</td></tr>
+<tr ID="Lab_Result_18">
+<td>Neutrophils [#/volume] in Blood</td>
+<td>58 10*3/uL</td>
+<td>2014-08-04</td></tr>
+<tr ID="Lab_Result_19">
+<td>Neutrophils/100 leukocytes in Blood</td>
+<td>55 %</td>
+<td>2014-08-04</td></tr>
+<tr ID="Lab_Result_20">
+<td>Anisocytosis [Presence] in Blood</td>
+<td>Present ++ out of ++++ </td>
+<td>2014-08-04</td></tr>
+<tr ID="Lab_Result_21">
+<td>Hypochromia [Presence] in Blood</td>
+<td>not detected </td>
+<td>2014-08-04</td></tr>
+<tr ID="Lab_Result_22">
+<td>Macrocytes [Presence] in Blood</td>
+<td>not detected </td>
+<td>2014-08-04</td></tr>
+<tr ID="Lab_Result_23">
+<td>Microcytes [Presence] in Blood</td>
+<td>not detected </td>
+<td>2014-08-04</td></tr>
+<tr ID="Lab_Result_24">
+<td>Poikilocytosis [Presence] in Blood by Light microscopy</td>
+<td>not detected </td>
+<td>2014-08-04</td></tr>
+<tr ID="Lab_Result_25">
+<td>Polychromasia [Presence] in Blood by Light microscopy</td>
+<td>not detected </td>
+<td>2014-08-04</td></tr>
+<tr ID="Lab_Result_26">
+<td>Erythrocyte morphology finding [Identifier] in Blood</td>
+<td>Many spherocytes present. </td>
+<td>2014-08-04</td></tr>
+<tr ID="Lab_Result_27">
+<td>Leukocyte morphology finding [Identifier] in Blood</td>
+<td>Reactive morphology in lymphoid cell </td>
+<td>2014-08-04</td></tr>
+<tr ID="Lab_Result_28">
+<td>Platelet morphology finding [Identifier] in Blood</td>
+<td>Platelets show defective granulation </td>
+<td>2014-08-04</td></tr></tbody></table></text>
+<entry typeCode="DRIV">
+<organizer classCode="BATTERY" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.1"></templateId>
+<id root="A6a8ae3fd-6121-492d-97f9-e079c9b57b25"></id>
+<code xsi:type="CE" nullFlavor="NI"></code>
+<statusCode code="completed"></statusCode>
+<component>
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.2"></templateId>
+<id root="248768BF-665B-4F0B-B0AB-1F1E1F911DCC"></id>
+<code xsi:type="CE" code="26453-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Erythrocytes [#/volume] in Blood"></code>
+<text><reference value="#Lab_Result_1"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime value="20140804143428"></effectiveTime>
+<value xsi:type="PQ" value="4.41" unit="10*6/uL"></value>
+<interpretationCode code="N"></interpretationCode>
+<referenceRange>
+<observationRange>
+<text><reference value="4.3 to 6.2"></reference></text></observationRange></referenceRange></observation></component></organizer></entry>
+<entry typeCode="DRIV">
+<organizer classCode="BATTERY" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.1"></templateId>
+<id root="Ae5c8471d-fa63-41ef-8a3e-1c3509b3e12c"></id>
+<code xsi:type="CE" nullFlavor="NI"></code>
+<statusCode code="completed"></statusCode>
+<component>
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.2"></templateId>
+<id root="0D510D63-9704-4EA7-A0CA-61791B5757F2"></id>
+<code xsi:type="CE" code="718-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Hemoglobin [Mass/volume] in Blood"></code>
+<text><reference value="#Lab_Result_2"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime value="20140804143428"></effectiveTime>
+<value xsi:type="PQ" value="12.5" unit="g/mL"></value>
+<interpretationCode code="L"></interpretationCode>
+<referenceRange>
+<observationRange>
+<text><reference value="13 to 18"></reference></text></observationRange></referenceRange></observation></component></organizer></entry>
+<entry typeCode="DRIV">
+<organizer classCode="BATTERY" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.1"></templateId>
+<id root="Af379ebaf-7f4e-4cc8-84b8-ca67ab495dac"></id>
+<code xsi:type="CE" nullFlavor="NI"></code>
+<statusCode code="completed"></statusCode>
+<component>
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.2"></templateId>
+<id root="A9BF126E-6643-4958-A417-96087F11F847"></id>
+<code xsi:type="CE" code="20570-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Hematocrit [Volume Fraction] of Blood"></code>
+<text><reference value="#Lab_Result_3"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime value="20140804143428"></effectiveTime>
+<value xsi:type="PQ" value="41" unit="%"></value>
+<interpretationCode code="N"></interpretationCode>
+<referenceRange>
+<observationRange>
+<text><reference value="40 to 52"></reference></text></observationRange></referenceRange></observation></component></organizer></entry>
+<entry typeCode="DRIV">
+<organizer classCode="BATTERY" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.1"></templateId>
+<id root="Aef13d211-8fb9-48f2-af9c-b26bbda82804"></id>
+<code xsi:type="CE" nullFlavor="NI"></code>
+<statusCode code="completed"></statusCode>
+<component>
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.2"></templateId>
+<id root="4CFE421B-6D48-4AB2-9DBE-CD9CB51C7C7F"></id>
+<code xsi:type="CE" code="26464-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Leukocytes [#/volume] in Blood"></code>
+<text><reference value="#Lab_Result_4"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime value="20140804143428"></effectiveTime>
+<value xsi:type="PQ" value="105600" unit="{cells}/uL"></value>
+<interpretationCode code="HH"></interpretationCode>
+<referenceRange>
+<observationRange>
+<text><reference value="4300 to 10800"></reference></text></observationRange></referenceRange></observation></component></organizer></entry>
+<entry typeCode="DRIV">
+<organizer classCode="BATTERY" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.1"></templateId>
+<id root="Adba4318c-cdd9-49ba-809c-c3735befbb31"></id>
+<code xsi:type="CE" nullFlavor="NI"></code>
+<statusCode code="completed"></statusCode>
+<component>
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.2"></templateId>
+<id root="772CFE35-A372-4463-B18D-FEAE243F01C1"></id>
+<code xsi:type="CE" code="26515-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Platelets [#/volume] in Blood"></code>
+<text><reference value="#Lab_Result_5"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime value="20140804143428"></effectiveTime>
+<value xsi:type="PQ" value="210000" unit="{cells}/uL"></value>
+<interpretationCode code="N"></interpretationCode>
+<referenceRange>
+<observationRange>
+<text><reference value="150000 to 350000"></reference></text></observationRange></referenceRange></observation></component></organizer></entry>
+<entry typeCode="DRIV">
+<organizer classCode="BATTERY" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.1"></templateId>
+<id root="Ae4f59df9-56e8-4161-87fc-15ba434001c2"></id>
+<code xsi:type="CE" nullFlavor="NI"></code>
+<statusCode code="completed"></statusCode>
+<component>
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.2"></templateId>
+<id root="9F862C33-EBA5-4B50-A8D7-DB05C23B2E2E"></id>
+<code xsi:type="CE" code="30428-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Erythrocyte mean corpuscular volume [Entitic volume]"></code>
+<text><reference value="#Lab_Result_6"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime value="20140804143428"></effectiveTime>
+<value xsi:type="PQ" value="91" unit="fL"></value>
+<interpretationCode code="N"></interpretationCode>
+<referenceRange>
+<observationRange>
+<text><reference value="80 to 95"></reference></text></observationRange></referenceRange></observation></component></organizer></entry>
+<entry typeCode="DRIV">
+<organizer classCode="BATTERY" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.1"></templateId>
+<id root="Acce9c2a8-8500-434f-8374-d3ddaa61ed36"></id>
+<code xsi:type="CE" nullFlavor="NI"></code>
+<statusCode code="completed"></statusCode>
+<component>
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.2"></templateId>
+<id root="9C6BEF57-A792-4B54-84D4-4036BA36DCD1"></id>
+<code xsi:type="CE" code="28539-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Erythrocyte mean corpuscular hemoglobin [Entitic mass]"></code>
+<text><reference value="#Lab_Result_7"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime value="20140804143428"></effectiveTime>
+<value xsi:type="PQ" value="29" unit="pg/{cell}"></value>
+<interpretationCode code="N"></interpretationCode>
+<referenceRange>
+<observationRange>
+<text><reference value="27 to 31"></reference></text></observationRange></referenceRange></observation></component></organizer></entry>
+<entry typeCode="DRIV">
+<organizer classCode="BATTERY" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.1"></templateId>
+<id root="A551c6d9c-0501-4896-b5ca-df22d1eb0504"></id>
+<code xsi:type="CE" nullFlavor="NI"></code>
+<statusCode code="completed"></statusCode>
+<component>
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.2"></templateId>
+<id root="81969B00-C03C-4029-A8C2-190E65B9E690"></id>
+<code xsi:type="CE" code="28540-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Erythrocyte mean corpuscular hemoglobin concentration [Mass/volume]"></code>
+<text><reference value="#Lab_Result_8"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime value="20140804143428"></effectiveTime>
+<value xsi:type="PQ" value="32.4" unit="g/dL"></value>
+<interpretationCode code="N"></interpretationCode>
+<referenceRange>
+<observationRange>
+<text><reference value="32 to 36"></reference></text></observationRange></referenceRange></observation></component></organizer></entry>
+<entry typeCode="DRIV">
+<organizer classCode="BATTERY" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.1"></templateId>
+<id root="A29725fa0-449a-4409-a94e-7a98aa438db3"></id>
+<code xsi:type="CE" nullFlavor="NI"></code>
+<statusCode code="completed"></statusCode>
+<component>
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.2"></templateId>
+<id root="913750E2-53D8-4B5A-BFFB-DBC871A3259A"></id>
+<code xsi:type="CE" code="30385-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Erythrocyte distribution width [Ratio]"></code>
+<text><reference value="#Lab_Result_9"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime value="20140804143428"></effectiveTime>
+<value xsi:type="PQ" value="10.5" unit="%"></value>
+<interpretationCode code="N"></interpretationCode>
+<referenceRange>
+<observationRange>
+<text><reference value="10.2 to 14.5"></reference></text></observationRange></referenceRange></observation></component></organizer></entry>
+<entry typeCode="DRIV">
+<organizer classCode="BATTERY" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.1"></templateId>
+<id root="A28bf3b93-ce06-4aab-8f33-dc2d30b00cae"></id>
+<code xsi:type="CE" nullFlavor="NI"></code>
+<statusCode code="completed"></statusCode>
+<component>
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.2"></templateId>
+<id root="7365D812-4CB8-466C-8948-E800A8DB48BC"></id>
+<code xsi:type="CE" code="26444-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Basophils [#/volume] in Blood"></code>
+<text><reference value="#Lab_Result_10"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime value="20140804143428"></effectiveTime>
+<value xsi:type="PQ" value="0.1" unit="10*3/uL"></value>
+<interpretationCode code="N"></interpretationCode>
+<referenceRange>
+<observationRange>
+<text><reference value="0 to 0.3"></reference></text></observationRange></referenceRange></observation></component></organizer></entry>
+<entry typeCode="DRIV">
+<organizer classCode="BATTERY" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.1"></templateId>
+<id root="A9de9e406-d704-4070-bd9f-430960cd3e27"></id>
+<code xsi:type="CE" nullFlavor="NI"></code>
+<statusCode code="completed"></statusCode>
+<component>
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.2"></templateId>
+<id root="93D5A102-8E85-449D-A098-CFEBE7577790"></id>
+<code xsi:type="CE" code="30180-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Basophils/100 leukocytes in Blood"></code>
+<text><reference value="#Lab_Result_11"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime value="20140804143428"></effectiveTime>
+<value xsi:type="PQ" value="0.1" unit="%"></value>
+<interpretationCode code="N"></interpretationCode>
+<referenceRange>
+<observationRange>
+<text><reference value="0 to 2"></reference></text></observationRange></referenceRange></observation></component></organizer></entry>
+<entry typeCode="DRIV">
+<organizer classCode="BATTERY" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.1"></templateId>
+<id root="A7b352c08-5580-437b-83c7-5b8c4c3d0c12"></id>
+<code xsi:type="CE" nullFlavor="NI"></code>
+<statusCode code="completed"></statusCode>
+<component>
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.2"></templateId>
+<id root="8AB98023-31C7-4C46-B600-A55437F97BC7"></id>
+<code xsi:type="CE" code="26484-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Monocytes [#/volume] in Blood"></code>
+<text><reference value="#Lab_Result_12"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime value="20140804143428"></effectiveTime>
+<value xsi:type="PQ" value="3" unit="10*3/uL"></value>
+<interpretationCode code="N"></interpretationCode>
+<referenceRange>
+<observationRange>
+<text><reference value="0.0 to 13.0"></reference></text></observationRange></referenceRange></observation></component></organizer></entry>
+<entry typeCode="DRIV">
+<organizer classCode="BATTERY" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.1"></templateId>
+<id root="A3b0a6470-ce2e-4611-9a73-8f72a305df0e"></id>
+<code xsi:type="CE" nullFlavor="NI"></code>
+<statusCode code="completed"></statusCode>
+<component>
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.2"></templateId>
+<id root="05233B8B-7226-4C62-9C37-CD232331E7ED"></id>
+<code xsi:type="CE" code="26485-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Monocytes/100 leukocytes in Blood"></code>
+<text><reference value="#Lab_Result_13"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime value="20140804143428"></effectiveTime>
+<value xsi:type="PQ" value="3" unit="%"></value>
+<interpretationCode code="N"></interpretationCode>
+<referenceRange>
+<observationRange>
+<text><reference value="0 to 10"></reference></text></observationRange></referenceRange></observation></component></organizer></entry>
+<entry typeCode="DRIV">
+<organizer classCode="BATTERY" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.1"></templateId>
+<id root="A8b818827-02c8-4088-a8d8-c52b546603eb"></id>
+<code xsi:type="CE" nullFlavor="NI"></code>
+<statusCode code="completed"></statusCode>
+<component>
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.2"></templateId>
+<id root="70F37FB6-4BA1-45D9-9307-AF11B715468C"></id>
+<code xsi:type="CE" code="26449-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Eosinophils [#/volume] in Blood"></code>
+<text><reference value="#Lab_Result_14"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime value="20140804143428"></effectiveTime>
+<value xsi:type="PQ" value="2.1" unit="10*3/uL"></value>
+<interpretationCode code="HH"></interpretationCode>
+<referenceRange>
+<observationRange>
+<text><reference value="0.0 to 0.45"></reference></text></observationRange></referenceRange></observation></component></organizer></entry>
+<entry typeCode="DRIV">
+<organizer classCode="BATTERY" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.1"></templateId>
+<id root="Af357ebb8-49b6-4e74-86b2-1b4609d60efa"></id>
+<code xsi:type="CE" nullFlavor="NI"></code>
+<statusCode code="completed"></statusCode>
+<component>
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.2"></templateId>
+<id root="1A253386-4DDA-42C8-BC1D-38E074E3F543"></id>
+<code xsi:type="CE" code="26450-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Eosinophils/100 leukocytes in Blood"></code>
+<text><reference value="#Lab_Result_15"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime value="20140804143428"></effectiveTime>
+<value xsi:type="PQ" value="2" unit="%"></value>
+<interpretationCode code="N"></interpretationCode>
+<referenceRange>
+<observationRange>
+<text><reference value="0 to 6"></reference></text></observationRange></referenceRange></observation></component></organizer></entry>
+<entry typeCode="DRIV">
+<organizer classCode="BATTERY" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.1"></templateId>
+<id root="A073d761d-98b9-4614-ad05-e711a239741a"></id>
+<code xsi:type="CE" nullFlavor="NI"></code>
+<statusCode code="completed"></statusCode>
+<component>
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.2"></templateId>
+<id root="EFFE6B68-DC63-4C28-A253-46020B33AC98"></id>
+<code xsi:type="CE" code="26474-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Lymphocytes [#/volume] in Blood"></code>
+<text><reference value="#Lab_Result_16"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime value="20140804143428"></effectiveTime>
+<value xsi:type="PQ" value="41.2" unit="10*3/uL"></value>
+<interpretationCode code="HH"></interpretationCode>
+<referenceRange>
+<observationRange>
+<text><reference value="1.0 to 4.8"></reference></text></observationRange></referenceRange></observation></component></organizer></entry>
+<entry typeCode="DRIV">
+<organizer classCode="BATTERY" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.1"></templateId>
+<id root="Af1167ee2-86dd-42cf-92a7-5984c94fd3ec"></id>
+<code xsi:type="CE" nullFlavor="NI"></code>
+<statusCode code="completed"></statusCode>
+<component>
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.2"></templateId>
+<id root="BA953C58-EE4A-4D24-9C1F-D5B35D8E6A24"></id>
+<code xsi:type="CE" code="26478-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Lymphocytes/100 leukocytes in Blood"></code>
+<text><reference value="#Lab_Result_17"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime value="20140804143428"></effectiveTime>
+<value xsi:type="PQ" value="39" unit="%"></value>
+<interpretationCode code="N"></interpretationCode>
+<referenceRange>
+<observationRange>
+<text><reference value="15.0 to 45.0"></reference></text></observationRange></referenceRange></observation></component></organizer></entry>
+<entry typeCode="DRIV">
+<organizer classCode="BATTERY" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.1"></templateId>
+<id root="A05c60679-f665-4c48-ae36-a52c9b35f0c0"></id>
+<code xsi:type="CE" nullFlavor="NI"></code>
+<statusCode code="completed"></statusCode>
+<component>
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.2"></templateId>
+<id root="33B58C41-423D-43F7-AE7D-917D0941734E"></id>
+<code xsi:type="CE" code="26499-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Neutrophils [#/volume] in Blood"></code>
+<text><reference value="#Lab_Result_18"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime value="20140804143428"></effectiveTime>
+<value xsi:type="PQ" value="58" unit="10*3/uL"></value>
+<interpretationCode code="HH"></interpretationCode>
+<referenceRange>
+<observationRange>
+<text><reference value="1.5 to 7.0"></reference></text></observationRange></referenceRange></observation></component></organizer></entry>
+<entry typeCode="DRIV">
+<organizer classCode="BATTERY" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.1"></templateId>
+<id root="Abcc23abc-5c86-4e18-86fe-ce79109b14d8"></id>
+<code xsi:type="CE" nullFlavor="NI"></code>
+<statusCode code="completed"></statusCode>
+<component>
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.2"></templateId>
+<id root="64B1C190-98F0-4DD6-BD69-B0A3F5DBADEC"></id>
+<code xsi:type="CE" code="26511-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Neutrophils/100 leukocytes in Blood"></code>
+<text><reference value="#Lab_Result_19"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime value="20140804143428"></effectiveTime>
+<value xsi:type="PQ" value="55" unit="%"></value>
+<interpretationCode code="N"></interpretationCode>
+<referenceRange>
+<observationRange>
+<text><reference value="50 to 73"></reference></text></observationRange></referenceRange></observation></component></organizer></entry>
+<entry typeCode="DRIV">
+<organizer classCode="BATTERY" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.1"></templateId>
+<id root="Afec7ddd1-8808-4d4b-ac24-97c8c581f29b"></id>
+<code xsi:type="CE" nullFlavor="NI"></code>
+<statusCode code="completed"></statusCode>
+<component>
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.2"></templateId>
+<id root="41B093F4-7D5D-4B11-9A1D-E75DC79AA836"></id>
+<code xsi:type="CE" code="38892-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Anisocytosis [Presence] in Blood"></code>
+<text><reference value="#Lab_Result_20"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime value="20140804143428"></effectiveTime>
+<value xsi:type="ST">Present ++ out of ++++ </value>
+<interpretationCode code="A"></interpretationCode></observation></component></organizer></entry>
+<entry typeCode="DRIV">
+<organizer classCode="BATTERY" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.1"></templateId>
+<id root="Afe04cf15-d46d-4bdf-99e3-fe0e66656812"></id>
+<code xsi:type="CE" nullFlavor="NI"></code>
+<statusCode code="completed"></statusCode>
+<component>
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.2"></templateId>
+<id root="A84D5525-F10E-4BBE-9417-FE9B3E1C5513"></id>
+<code xsi:type="CE" code="30400-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Hypochromia [Presence] in Blood"></code>
+<text><reference value="#Lab_Result_21"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime value="20140804143428"></effectiveTime>
+<value xsi:type="ST">not detected </value>
+<interpretationCode code="N"></interpretationCode></observation></component></organizer></entry>
+<entry typeCode="DRIV">
+<organizer classCode="BATTERY" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.1"></templateId>
+<id root="A33662d4a-6c53-4744-91c9-987bc578c564"></id>
+<code xsi:type="CE" nullFlavor="NI"></code>
+<statusCode code="completed"></statusCode>
+<component>
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.2"></templateId>
+<id root="EB832A82-3D8D-4D52-8558-48B8CB280BAF"></id>
+<code xsi:type="CE" code="30424-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Macrocytes [Presence] in Blood"></code>
+<text><reference value="#Lab_Result_22"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime value="20140804143428"></effectiveTime>
+<value xsi:type="ST">not detected </value>
+<interpretationCode code="N"></interpretationCode></observation></component></organizer></entry>
+<entry typeCode="DRIV">
+<organizer classCode="BATTERY" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.1"></templateId>
+<id root="Ae739a3ed-452f-4ce4-a960-750fdf5063ac"></id>
+<code xsi:type="CE" nullFlavor="NI"></code>
+<statusCode code="completed"></statusCode>
+<component>
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.2"></templateId>
+<id root="97E1B7E0-5A0A-4110-8694-A77F9D3C6541"></id>
+<code xsi:type="CE" code="30434-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Microcytes [Presence] in Blood"></code>
+<text><reference value="#Lab_Result_23"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime value="20140804143428"></effectiveTime>
+<value xsi:type="ST">not detected </value>
+<interpretationCode code="N"></interpretationCode></observation></component></organizer></entry>
+<entry typeCode="DRIV">
+<organizer classCode="BATTERY" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.1"></templateId>
+<id root="Ade2ef48b-5263-4d11-89a5-fd1c0f95b0ee"></id>
+<code xsi:type="CE" nullFlavor="NI"></code>
+<statusCode code="completed"></statusCode>
+<component>
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.2"></templateId>
+<id root="9E21BE80-076E-4526-B48B-277AB0E2FC81"></id>
+<code xsi:type="CE" code="779-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Poikilocytosis [Presence] in Blood by Light microscopy"></code>
+<text><reference value="#Lab_Result_24"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime value="20140804143428"></effectiveTime>
+<value xsi:type="ST">not detected </value>
+<interpretationCode code="N"></interpretationCode></observation></component></organizer></entry>
+<entry typeCode="DRIV">
+<organizer classCode="BATTERY" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.1"></templateId>
+<id root="Af01de6ca-4246-45e4-93ca-53544c9b495f"></id>
+<code xsi:type="CE" nullFlavor="NI"></code>
+<statusCode code="completed"></statusCode>
+<component>
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.2"></templateId>
+<id root="E32ACCD9-A98A-4B93-A588-455A730F6451"></id>
+<code xsi:type="CE" code="10378-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Polychromasia [Presence] in Blood by Light microscopy"></code>
+<text><reference value="#Lab_Result_25"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime value="20140804143428"></effectiveTime>
+<value xsi:type="ST">not detected </value>
+<interpretationCode code="N"></interpretationCode></observation></component></organizer></entry>
+<entry typeCode="DRIV">
+<organizer classCode="BATTERY" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.1"></templateId>
+<id root="A4357449d-b9b2-46d4-a8d3-566d043c57c0"></id>
+<code xsi:type="CE" nullFlavor="NI"></code>
+<statusCode code="completed"></statusCode>
+<component>
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.2"></templateId>
+<id root="641CF77D-4F2D-4906-99EF-8ADD0E8743AA"></id>
+<code xsi:type="CE" code="6742-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Erythrocyte morphology finding [Identifier] in Blood"></code>
+<text><reference value="#Lab_Result_26"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime value="20140804143428"></effectiveTime>
+<value xsi:type="ST">Many spherocytes present. </value>
+<interpretationCode code="A"></interpretationCode></observation></component></organizer></entry>
+<entry typeCode="DRIV">
+<organizer classCode="BATTERY" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.1"></templateId>
+<id root="A59504399-5c56-4aa0-a624-7b9a202306ab"></id>
+<code xsi:type="CE" nullFlavor="NI"></code>
+<statusCode code="completed"></statusCode>
+<component>
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.2"></templateId>
+<id root="574418E4-38C8-4DEC-B913-17B30541DDD1"></id>
+<code xsi:type="CE" code="11156-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Leukocyte morphology finding [Identifier] in Blood"></code>
+<text><reference value="#Lab_Result_27"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime value="20140804143428"></effectiveTime>
+<value xsi:type="ST">Reactive morphology in lymphoid cell </value>
+<interpretationCode code="A"></interpretationCode></observation></component></organizer></entry>
+<entry typeCode="DRIV">
+<organizer classCode="BATTERY" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.1"></templateId>
+<id root="Aca3b9007-d099-4902-ab2d-3f03d1c28f33"></id>
+<code xsi:type="CE" nullFlavor="NI"></code>
+<statusCode code="completed"></statusCode>
+<component>
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.2"></templateId>
+<id root="78202D45-4964-4A9B-8BA0-A7E563C77566"></id>
+<code xsi:type="CE" code="11125-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Platelet morphology finding [Identifier] in Blood"></code>
+<text><reference value="#Lab_Result_28"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime value="20140804143428"></effectiveTime>
+<value xsi:type="ST">Platelets show defective granulation </value>
+<interpretationCode code="A"></interpretationCode></observation></component></organizer></entry></section></component>
+<component>
+<section>
+<templateId root="2.16.840.1.113883.10.20.22.2.17"></templateId>
+<code code="29762-2" codeSystem="2.16.840.1.113883.6.1" displayName="Social History"></code>
+<title>Social History</title>
+<text><table width="95%" border="1">
+<thead>
+<tr>
+<th>Social History</th>
+<th>Effective Date</th></tr></thead>
+<tbody>
+<tr ID="SmokingStatus_1">
+<td>Former smoker</td>
+<td>2014-01-27</td></tr></tbody></table></text>
+<entry typeCode="DRIV">
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.78"></templateId>
+<code xsi:type="CE" code="ASSERTION" codeSystem="2.16.840.1.113883.5.4"></code>
+<text><reference value="#SmokingStatus_1"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime>
+<low value="20140127080000"></low></effectiveTime>
+<value xsi:type="CD" code="8517006" codeSystem="2.16.840.1.113883.6.96" displayName="Former smoker"></value></observation></entry></section></component>
+<component>
+<section>
+<templateId root="2.16.840.1.113883.10.20.22.2.4"></templateId>
+<code code="8716-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Vital Signs"></code>
+<title>Vital Signs</title>
+<text><table>
+<thead>
+<tr>
+<th>Vital Name</th>
+<th>Measurement Date</th>
+<th>Value</th></tr></thead>
+<tbody>
+<tr ID="Vital_1">
+<td>Respiratory Rate</td>
+<td>2012-02-16</td>
+<td>20 /min</td></tr>
+<tr ID="Vital_2">
+<td>Heart Rate</td>
+<td>2012-02-16</td>
+<td>85 /min</td></tr>
+<tr ID="Vital_3">
+<td>Systolic BP</td>
+<td>2012-02-16</td>
+<td>170 mm[Hg]</td></tr>
+<tr ID="Vital_4">
+<td>Diastolic BP</td>
+<td>2012-02-16</td>
+<td>120 mm[Hg]</td></tr>
+<tr ID="Vital_5">
+<td>Body Temperature</td>
+<td>2012-02-16</td>
+<td>99 [degF]</td></tr>
+<tr ID="Vital_6">
+<td>Height</td>
+<td>2012-02-16</td>
+<td>72 [in_us]</td></tr>
+<tr ID="Vital_7">
+<td>Weight Measured</td>
+<td>2012-02-16</td>
+<td>220 [lb_av]</td></tr>
+<tr ID="Vital_8">
+<td>BMI (Body Mass Index)</td>
+<td>2012-02-16</td>
+<td>29.83 kg/m2</td></tr>
+<tr ID="Vital_9">
+<td>Oxygen Saturation</td>
+<td>2012-02-16</td>
+<td>93 %</td></tr></tbody></table></text>
+<entry typeCode="DRIV">
+<organizer classCode="CLUSTER" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.26"></templateId>
+<id root="B09057AC-3E6B-4ECC-9CA4-95D3A5FEDDFA"></id>
+<code code="46680005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Vital signs"></code>
+<statusCode code="completed"></statusCode>
+<effectiveTime value="20120216000000"></effectiveTime>
+<component>
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.27"></templateId>
+<id root="A0393D20-8858-4BFA-83BC-912F7A4A30FA" extension="185149304-9279-1"></id>
+<code xsi:type="CE" code="9279-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Respiratory Rate"></code>
+<text><reference value="#Vital_1"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime value="20120216000000"></effectiveTime>
+<value xsi:type="PQ" value="20" unit="/min"></value></observation></component>
+<component>
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.27"></templateId>
+<id root="A0393D20-8858-4BFA-83BC-912F7A4A30FA" extension="185149304-8867-4"></id>
+<code xsi:type="CE" code="8867-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Heart Rate"></code>
+<text><reference value="#Vital_2"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime value="20120216000000"></effectiveTime>
+<value xsi:type="PQ" value="85" unit="/min"></value></observation></component>
+<component>
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.27"></templateId>
+<id root="A0393D20-8858-4BFA-83BC-912F7A4A30FA" extension="185149304-8480-6"></id>
+<code xsi:type="CE" code="8480-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Systolic BP"></code>
+<text><reference value="#Vital_3"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime value="20120216000000"></effectiveTime>
+<value xsi:type="PQ" value="170" unit="mm[Hg]"></value></observation></component>
+<component>
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.27"></templateId>
+<id root="A0393D20-8858-4BFA-83BC-912F7A4A30FA" extension="185149304-8462-4"></id>
+<code xsi:type="CE" code="8462-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Diastolic BP"></code>
+<text><reference value="#Vital_4"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime value="20120216000000"></effectiveTime>
+<value xsi:type="PQ" value="120" unit="mm[Hg]"></value></observation></component>
+<component>
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.27"></templateId>
+<id root="A0393D20-8858-4BFA-83BC-912F7A4A30FA" extension="185149304-8310-5"></id>
+<code xsi:type="CE" code="8310-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body Temperature"></code>
+<text><reference value="#Vital_5"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime value="20120216000000"></effectiveTime>
+<value xsi:type="PQ" value="99" unit="[degF]"></value></observation></component>
+<component>
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.27"></templateId>
+<id root="A0393D20-8858-4BFA-83BC-912F7A4A30FA" extension="185149304-8302-2"></id>
+<code xsi:type="CE" code="8302-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Height"></code>
+<text><reference value="#Vital_6"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime value="20120216000000"></effectiveTime>
+<value xsi:type="PQ" value="72" unit="[in_us]"></value></observation></component>
+<component>
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.27"></templateId>
+<id root="A0393D20-8858-4BFA-83BC-912F7A4A30FA" extension="185149304-3141-9"></id>
+<code xsi:type="CE" code="3141-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Weight Measured"></code>
+<text><reference value="#Vital_7"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime value="20120216000000"></effectiveTime>
+<value xsi:type="PQ" value="220" unit="[lb_av]"></value></observation></component>
+<component>
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.27"></templateId>
+<id root="A0393D20-8858-4BFA-83BC-912F7A4A30FA" extension="185149304-39156-5"></id>
+<code xsi:type="CE" code="39156-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="BMI (Body Mass Index)"></code>
+<text><reference value="#Vital_8"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime value="20120216000000"></effectiveTime>
+<value xsi:type="PQ" value="29.83" unit="kg/m2"></value></observation></component>
+<component>
+<observation classCode="OBS" moodCode="EVN">
+<templateId root="2.16.840.1.113883.10.20.22.4.27"></templateId>
+<id root="A0393D20-8858-4BFA-83BC-912F7A4A30FA" extension="185149304-59408-5"></id>
+<code xsi:type="CE" code="59408-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Oxygen Saturation"></code>
+<text><reference value="#Vital_9"></reference></text>
+<statusCode code="completed"></statusCode>
+<effectiveTime value="20120216000000"></effectiveTime>
+<value xsi:type="PQ" value="93" unit="%"></value></observation></component></organizer></entry></section></component></structuredBody></component></ClinicalDocument>
